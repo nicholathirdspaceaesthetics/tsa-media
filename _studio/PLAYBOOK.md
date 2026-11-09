@@ -48,9 +48,9 @@ Every approved Third Space feed post goes to Instagram, the Facebook Page and th
 
 ## Daily stories
 
-One Instagram story per day at 8:30am, `metadata.instagram {type: "story", shouldShareToFeed: false, link: <booking link>}`. Routine booking stories are pre-approved by Nichola and go out without review.
+One Instagram story per day at 8:30am, `metadata.instagram {type: "story", shouldShareToFeed: false}`. Instagram does not allow a link sticker on automatically published stories, so there is no link field; Nichola chose fully automatic stories that point to the link in bio (10 Nov). Routine booking stories are pre-approved by Nichola and go out without review.
 
-Design: `_studio/render.py` kind `story` (see `_studio/spec-stories.json` for examples), 1080x1920. Alternate `variant: "photo"` (photo pushed down with `top` 640-760 so faces sit below the text) and `variant: "panel"` (cream / oat / choc panel). Layout is fixed: logo, eyebrow "Book with us", hook headline with exactly one italic word, then the three appointment types in this order: "Aesthetic consultation, with Nurse Fernanda", "LED", "Skin". Then "Tap the link to book." No times unless Nichola has supplied availability for that day.
+Design: `_studio/render.py` kind `story` (see `_studio/spec-stories.json` for examples), 1080x1920. Alternate `variant: "photo"` (photo pushed down with `top` 640-760 so faces sit below the text) and `variant: "panel"` (cream / oat / choc panel). Layout is fixed: logo, eyebrow "Book with us", hook headline with exactly one italic word, then the three appointment types in this order: "Aesthetic consultation, with Nurse Fernanda", "LED", "Skin". Then "Book through the link in our bio." (never "tap the link") No times unless Nichola has supplied availability for that day.
 
 Hooks: an invitation, never a sales line. Never reuse a hook already in `_studio/stories-log.json`. Rotate photos: use the least recently used photo in the log; never the same photo two days running; check each render by looking at it (faces must not sit under text).
 
