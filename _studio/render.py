@@ -65,6 +65,11 @@ h1 .lt{font-weight:300} h1 i{font-weight:300;font-style:italic}
 .tier .n{font-size:54px;font-weight:500;letter-spacing:-.02em}
 .tier .p{font-size:42px;font-weight:300}
 .tier .d{font-size:32px;line-height:1.45;margin-top:10px;opacity:.88}
+.st-list{margin-top:44px}
+.st-list p{display:flex;align-items:baseline;gap:18px;font-size:38px;font-weight:400;padding:16px 0;border-top:1px solid currentColor;border-color:rgba(127,100,70,.35)}
+.st-list p:last-child{border-bottom:1px solid rgba(127,100,70,.35)}
+.st-list em{font-style:normal;font-weight:300;font-size:28px;opacity:.8}
+.st-cta{margin-top:40px;font-size:30px;font-weight:500;letter-spacing:.01em}
 .src{font-size:24px;opacity:.65;letter-spacing:.04em}
 """
 
@@ -114,6 +119,29 @@ def slide_html(s, n, total, W, H):
         <div class="split-panel bg-{bg}" style="top:{ih}px"><div class="grain"></div>
         <div class="pad" style="position:absolute;inset:0;padding-top:58px;justify-content:flex-start"><div>{num}{eyebrow}{'<div style="height:22px"></div>' if (eyebrow or num) and h1 else ''}{h1}{body}{extra}</div></div></div>'''
         tone = "light" if bg in ("choc", "deep") else "dark"
+    elif kind == "story":
+        # Instagram Story: logo + hook + the three appointment types in the top ~55%,
+        # lower area left clear for the link sticker. Variant "photo" = full bleed, "panel" = cream panel over photo.
+        items = ('<div class="st-list">'
+                 '<p><span>Aesthetic consultation</span><em>with Nurse Fernanda</em></p>'
+                 '<p><span>LED</span></p><p><span>Skin</span></p></div>')
+        cta = f'<div class="st-cta">{s.get("cta","Tap the link to book.")}</div>'
+        block = f'{eyebrow}<div style="height:24px"></div><h1 style="font-size:{hs}px">{s["h"]}</h1>{items}{cta}'
+        if s.get("variant", "photo") == "photo":
+            t = s.get("top", 640)
+            inner = f'''<div class="bg-deep" style="position:absolute;inset:0"></div>
+            <div class="photo" style="top:{t}px;background-image:url({photo_url(s["img"])});background-position:{s.get('pos','center')}"></div>
+            <div class="shade" style="top:{t}px;height:420px;bottom:auto;background:linear-gradient(180deg,#3a2715 0%,rgba(58,39,21,.75) 30%,rgba(58,39,21,0) 100%)"></div><div class="grain" style="opacity:.10"></div>
+            <div class="pad on-photo" style="justify-content:flex-start;padding-top:170px"><img class="logo" src="data:image/png;base64,{LOGO['cream']}" style="width:230px;margin-bottom:70px"><div>{block}</div></div>'''
+            tone = "light"
+        else:
+            ph = s.get("frac", .44); ih = int(H * ph)
+            bg = s.get("panel", "cream")
+            col = "cream" if bg in ("choc", "deep") else "choc"
+            inner = f'''<div class="split-img" style="top:auto;bottom:0;height:{ih}px;background-image:url({photo_url(s["img"])});background-position:{s.get('pos','center')}"></div>
+            <div class="split-panel bg-{bg}" style="top:0;bottom:{ih}px"><div class="grain"></div>
+            <div class="pad" style="position:absolute;inset:0;padding-top:170px;justify-content:flex-start"><img class="logo" src="data:image/png;base64,{LOGO[col]}" style="width:230px;margin-bottom:60px"><div>{block}</div></div></div>'''
+            tone = "light" if bg in ("choc", "deep") else "dark"
     elif kind == "logo":
         bg = s.get("bg", "cream")
         col = "cream" if bg in ("choc", "deep") else "choc"
