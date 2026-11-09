@@ -1,0 +1,15 @@
+[
+ {"id":"f201","slides":[
+  {"kind":"photo","theme":"founder","footl":"@nichola_stevenson","img":"222","pos":"50% 55%","eyebrow":"If I opened again","h":"We opened our clinic in a week. Some of it was <i>rushed</i>.","hs":88},
+  {"kind":"text-fcream","theme":"founder","footl":"@nichola_stevenson","h":"Our first booking system was one of those rushed decisions.","hs":76,"body":["We chose it quickly to get the doors open. It couldn&#8217;t do the one thing I cared about most."]},
+  {"kind":"split","theme":"founder","footl":"@nichola_stevenson","panel":"fcream","img":"183","pos":"50% 50%","frac":0.5,"h":"Clients couldn&#8217;t book themselves.","hs":62,"body":["If you&#8217;re busy, you want control over your own bookings. Not ringing a clinic and waiting an hour for someone to call you back."]},
+  {"kind":"text-cherry","theme":"founder","footl":"@nichola_stevenson","h":"So we replaced it with Momence.","hs":84,"body":["Now people book their own appointments, when it suits them, without waiting on us."]},
+  {"kind":"text-fcream","theme":"founder","footl":"@nichola_stevenson","h":"If I opened again, booking would be the first decision,<br><span class='lt'>not one we rushed.</span>","hs":72}
+ ]},
+ {"id":"f202","slides":[
+  {"kind":"photo","theme":"founder","footl":"@nichola_stevenson","img":"152","pos":"50% 50%","h":"People ask which of us is in <i>charge</i>.","hs":92},
+  {"kind":"text-fcream","theme":"founder","footl":"@nichola_stevenson","h":"It depends on the decision.","hs":96,"body":["Fernanda leads clinically. I look after operations and the commercial side."]},
+  {"kind":"text-cherry","theme":"founder","footl":"@nichola_stevenson","h":"Fernanda decided there are some higher-risk areas she won&#8217;t treat.","hs":70,"body":["We get plenty of enquiries for them. Commercially, that&#8217;s not nothing."]},
+  {"kind":"text-fcream","theme":"founder","footl":"@nichola_stevenson","h":"She gets the final <i>say</i>.","hs":104,"body":["I trust her clinical judgement. On clinical calls, that&#8217;s the end of the conversation."]}
+ ]}
+]
