@@ -1,0 +1,173 @@
+[
+ {
+  "id": "g01",
+  "slides": [
+   {
+    "kind": "story",
+    "eyebrow": "Book with us",
+    "nofoot": false,
+    "compact": true,
+    "pt": 76,
+    "lw": 190,
+    "lm": 44,
+    "cta": "Book through the link in our bio.",
+    "img": "12",
+    "variant": "photo",
+    "pos": "50% 38%",
+    "h": "Curious what&#8217;s right for <i>your</i> skin?",
+    "hs": 62,
+    "top": 540
+   }
+  ]
+ },
+ {
+  "id": "g02",
+  "slides": [
+   {
+    "kind": "story",
+    "eyebrow": "Book with us",
+    "nofoot": false,
+    "compact": true,
+    "pt": 76,
+    "lw": 190,
+    "lm": 44,
+    "cta": "Book through the link in our bio.",
+    "img": "222",
+    "variant": "panel",
+    "pos": "50% 60%",
+    "h": "Questions you&#8217;ve been meaning to <i>ask</i>?",
+    "hs": 62,
+    "panel": "cream",
+    "frac": 0.42
+   }
+  ]
+ },
+ {
+  "id": "g03",
+  "slides": [
+   {
+    "kind": "story",
+    "eyebrow": "Book with us",
+    "nofoot": false,
+    "compact": true,
+    "pt": 76,
+    "lw": 190,
+    "lm": 44,
+    "cta": "Book through the link in our bio.",
+    "img": "60",
+    "variant": "photo",
+    "pos": "50% 42%",
+    "h": "Your skin, <i>your</i> pace.",
+    "hs": 70,
+    "top": 540
+   }
+  ]
+ },
+ {
+  "id": "g04",
+  "slides": [
+   {
+    "kind": "story",
+    "eyebrow": "Book with us",
+    "nofoot": false,
+    "compact": true,
+    "pt": 76,
+    "lw": 190,
+    "lm": 44,
+    "cta": "Book through the link in our bio.",
+    "img": "213",
+    "variant": "panel",
+    "pos": "50% 55%",
+    "h": "Understand your skin <i>before</i> you change it.",
+    "hs": 62,
+    "panel": "oat",
+    "frac": 0.42
+   }
+  ]
+ },
+ {
+  "id": "g05",
+  "slides": [
+   {
+    "kind": "story",
+    "eyebrow": "Book with us",
+    "nofoot": false,
+    "compact": true,
+    "pt": 76,
+    "lw": 190,
+    "lm": 44,
+    "cta": "Book through the link in our bio.",
+    "img": "33",
+    "variant": "photo",
+    "pos": "50% 32%",
+    "h": "Natural is yours to <i>define</i>.",
+    "hs": 70,
+    "top": 540
+   }
+  ]
+ },
+ {
+  "id": "g06",
+  "slides": [
+   {
+    "kind": "story",
+    "eyebrow": "Book with us",
+    "nofoot": false,
+    "compact": true,
+    "pt": 76,
+    "lw": 190,
+    "lm": 44,
+    "cta": "Book through the link in our bio.",
+    "img": "273",
+    "variant": "photo",
+    "pos": "45% 38%",
+    "h": "Thinking about it? Let&#8217;s talk it <i>through</i>.",
+    "hs": 62,
+    "top": 540
+   }
+  ]
+ },
+ {
+  "id": "g07",
+  "slides": [
+   {
+    "kind": "story",
+    "eyebrow": "Book with us",
+    "nofoot": false,
+    "compact": true,
+    "pt": 76,
+    "lw": 190,
+    "lm": 44,
+    "cta": "Book through the link in our bio.",
+    "img": "57",
+    "variant": "photo",
+    "pos": "50% 42%",
+    "h": "Ready when <i>you</i> are.",
+    "hs": 70,
+    "top": 540
+   }
+  ]
+ },
+ {
+  "id": "g08",
+  "slides": [
+   {
+    "kind": "story",
+    "eyebrow": "Book with us",
+    "nofoot": false,
+    "compact": true,
+    "pt": 76,
+    "lw": 190,
+    "lm": 44,
+    "cta": "Book through the link in our bio.",
+    "img": "clinic-hug",
+    "variant": "panel",
+    "pos": "50% 26%",
+    "h": "We&#8217;d love to <i>meet</i> you.",
+    "hs": 70,
+    "panel": "choc",
+    "frac": 0.42
+   }
+  ]
+ }
+]

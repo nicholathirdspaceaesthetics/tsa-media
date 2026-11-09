@@ -69,6 +69,7 @@ h1 .lt{font-weight:300} h1 i{font-weight:300;font-style:italic}
 .st-list p{display:flex;align-items:baseline;gap:18px;font-size:38px;font-weight:400;padding:16px 0;border-top:1px solid currentColor;border-color:rgba(127,100,70,.35)}
 .st-list p:last-child{border-bottom:1px solid rgba(127,100,70,.35)}
 .st-list em{font-style:normal;font-weight:300;font-size:28px;opacity:.8}
+.st-list.compact{margin-top:32px}.st-list.compact p{font-size:31px;padding:11px 0}.st-list.compact em{font-size:23px}
 .st-cta{margin-top:40px;font-size:30px;font-weight:500;letter-spacing:.01em}
 .src{font-size:24px;opacity:.65;letter-spacing:.04em}
 """
@@ -122,7 +123,7 @@ def slide_html(s, n, total, W, H):
     elif kind == "story":
         # Instagram Story: logo + hook + the three appointment types in the top ~55%,
         # lower area left clear for the link sticker. Variant "photo" = full bleed, "panel" = cream panel over photo.
-        items = ('<div class="st-list">'
+        items = ('<div class="st-list'+(' compact' if s.get('compact') else '')+'">'
                  '<p><span>Aesthetic consultation</span><em>with Nurse Fernanda</em></p>'
                  '<p><span>LED</span></p><p><span>Skin</span></p></div>')
         cta = f'<div class="st-cta">{s.get("cta","Tap the link to book.")}</div>'
@@ -132,7 +133,7 @@ def slide_html(s, n, total, W, H):
             inner = f'''<div class="bg-deep" style="position:absolute;inset:0"></div>
             <div class="photo" style="top:{t}px;background-image:url({photo_url(s["img"])});background-position:{s.get('pos','center')}"></div>
             <div class="shade" style="top:{t}px;height:420px;bottom:auto;background:linear-gradient(180deg,#3a2715 0%,rgba(58,39,21,.75) 30%,rgba(58,39,21,0) 100%)"></div><div class="grain" style="opacity:.10"></div>
-            <div class="pad on-photo" style="justify-content:flex-start;padding-top:170px"><img class="logo" src="data:image/png;base64,{LOGO['cream']}" style="width:230px;margin-bottom:70px"><div>{block}</div></div>'''
+            <div class="pad on-photo" style="justify-content:flex-start;padding-top:{s.get('pt',170)}px"><img class="logo" src="data:image/png;base64,{LOGO['cream']}" style="width:{s.get('lw',230)}px;margin-bottom:{s.get('lm',70)}px"><div>{block}</div></div>'''
             tone = "light"
         else:
             ph = s.get("frac", .44); ih = int(H * ph)
@@ -140,7 +141,7 @@ def slide_html(s, n, total, W, H):
             col = "cream" if bg in ("choc", "deep") else "choc"
             inner = f'''<div class="split-img" style="top:auto;bottom:0;height:{ih}px;background-image:url({photo_url(s["img"])});background-position:{s.get('pos','center')}"></div>
             <div class="split-panel bg-{bg}" style="top:0;bottom:{ih}px"><div class="grain"></div>
-            <div class="pad" style="position:absolute;inset:0;padding-top:170px;justify-content:flex-start">{'' if s.get('nologo') else f'<img class="logo" src="data:image/png;base64,{LOGO[col]}" style="width:230px;margin-bottom:60px">'}<div>{block}</div></div></div>'''
+            <div class="pad" style="position:absolute;inset:0;padding-top:{s.get('pt',170)}px;justify-content:flex-start">{'' if s.get('nologo') else f'<img class="logo" src="data:image/png;base64,{LOGO[col]}" style="width:{s.get('lw',230)}px;margin-bottom:{s.get('lm',60)}px">'}<div>{block}</div></div></div>'''
             tone = "light" if bg in ("choc", "deep") else "dark"
     elif kind == "logo":
         bg = s.get("bg", "cream")
