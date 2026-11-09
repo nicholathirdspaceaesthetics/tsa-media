@@ -1,0 +1,265 @@
+[
+ {
+  "id": "104",
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "255",
+    "pos": "50% 30%",
+    "eyebrow": "The edit",
+    "h": "More products<br><span class='lt'>won&#8217;t</span> <i>fix</i> <span class='lt'>it.</span>",
+    "hs": 100,
+    "body": [
+     "As skin changes, the answer is usually better choices, not more of them."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "105",
+  "reel": true,
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "110",
+    "pos": "50% 40%",
+    "eyebrow": "Skin, explained",
+    "h": "Why does your skin change in your <i>40s</i>?",
+    "nofoot": true
+   },
+   {
+    "kind": "text-cream",
+    "h": "Hormones shift.<br><span class='lt'>So does your skin.</span>",
+    "hs": 110,
+    "nofoot": true
+   },
+   {
+    "kind": "photo",
+    "img": "124",
+    "pos": "45% 40%",
+    "h": "Drier. More sensitive.<br><span class='lt'>Slower to settle.</span>",
+    "hs": 92,
+    "body": [
+     "Common things women notice around perimenopause."
+    ],
+    "nofoot": true
+   },
+   {
+    "kind": "text-choc",
+    "h": "Nothing&#8217;s gone wrong.<br><span class='lt'>Your skin&#8217;s needs have changed.</span>",
+    "hs": 96,
+    "nofoot": true
+   },
+   {
+    "kind": "text-cream",
+    "h": "Let&#8217;s work out what yours needs <i>now</i>.",
+    "hs": 100,
+    "body": [
+     "Skin consultations take 20 minutes."
+    ],
+    "nofoot": true
+   },
+   {
+    "kind": "logo",
+    "bg": "cream",
+    "nofoot": true
+   }
+  ]
+ },
+ {
+  "id": "106",
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "264",
+    "pos": "50% 30%",
+    "eyebrow": "Skin consultation",
+    "h": "What actually happens in a skin <i>consultation</i>?",
+    "hs": 86,
+    "body": [
+     "Twenty minutes. Here&#8217;s how they go."
+    ]
+   },
+   {
+    "kind": "split",
+    "img": "171",
+    "pos": "50% 45%",
+    "num": "01",
+    "h": "We start with you.",
+    "hs": 70,
+    "body": [
+     "A short questionnaire about your skin, your routine and anything you&#8217;ve noticed lately."
+    ]
+   },
+   {
+    "kind": "split",
+    "img": "196",
+    "pos": "50% 60%",
+    "num": "02",
+    "panel": "oat",
+    "h": "Then we look at your skin.",
+    "hs": 70,
+    "body": [
+     "A close look, with us talking you through what we see as we go."
+    ]
+   },
+   {
+    "kind": "split",
+    "img": "183",
+    "pos": "50% 55%",
+    "num": "03",
+    "h": "We talk about what you&#8217;d like.",
+    "hs": 70,
+    "body": [
+     "What you&#8217;d like to change, what you&#8217;d rather leave alone, and what fits your life."
+    ]
+   },
+   {
+    "kind": "split",
+    "img": "269",
+    "pos": "50% 30%",
+    "num": "04",
+    "panel": "choc",
+    "h": "You leave with a plan.",
+    "hs": 70,
+    "body": [
+     "A treatment, products or simply a better routine. What you do next is up to you.",
+     "<span style='opacity:.75;font-size:26px'>Book through the link in our bio.</span>"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "107",
+  "reel": true,
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "138",
+    "pos": "50% 35%",
+    "eyebrow": "Skin, explained",
+    "h": "Sun, sleep, stress.<br><span class='lt'>What your skin notices</span> <i>first</i>.",
+    "hs": 96,
+    "nofoot": true
+   },
+   {
+    "kind": "text-cream",
+    "eyebrow": "Sun",
+    "h": "In Queensland, UV is 3 or above <i>all year</i>.",
+    "hs": 96,
+    "body": [
+     "That&#8217;s the level where sun protection is recommended, even in winter."
+    ],
+    "extra": "<div class='src' style='margin-top:40px'>Source: Queensland Health</div>",
+    "nofoot": true
+   },
+   {
+    "kind": "photo",
+    "img": "116",
+    "pos": "60% 50%",
+    "eyebrow": "Sleep",
+    "h": "Short nights tend to show.",
+    "hs": 92,
+    "body": [
+     "Dullness and puffiness are common after a run of poor sleep."
+    ],
+    "nofoot": true
+   },
+   {
+    "kind": "text-choc",
+    "eyebrow": "Stress",
+    "h": "Hard weeks can show up on your skin too.",
+    "hs": 92,
+    "body": [
+     "Breakouts and sensitivity are things people often notice."
+    ],
+    "nofoot": true
+   },
+   {
+    "kind": "text-cream",
+    "h": "Small habits count.<br><span class='lt'>So does a plan that fits</span> <i>your</i> <span class='lt'>life.</span>",
+    "hs": 92,
+    "body": [
+     "Skin consultations take 20 minutes."
+    ],
+    "nofoot": true
+   },
+   {
+    "kind": "logo",
+    "bg": "cream",
+    "nofoot": true
+   }
+  ]
+ },
+ {
+  "id": "108",
+  "slides": [
+   {
+    "kind": "text-choc",
+    "align": "bottom",
+    "logo_top": true,
+    "eyebrow": "Black Friday week",
+    "h": "The <i>gift</i> pack.",
+    "hs": 120,
+    "extra": "<div class='list' style='margin-top:44px'><p>One month of unlimited LED</p><p>One skin needling treatment</p><p>The A&#8211;Z Synergie kit</p></div><div style='display:flex;align-items:flex-end;justify-content:space-between;margin-top:48px'><div class='price'>$199</div><div style='font-size:24px;line-height:1.45;max-width:440px;text-align:right;opacity:.8'>Valued at $749 at our usual prices. Skin needling is subject to consultation and suitability.</div></div>"
+   }
+  ]
+ },
+ {
+  "id": "109",
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "238",
+    "pos": "50% 50%",
+    "eyebrow": "Our guide",
+    "h": "The Skin You&#8217;re <i>In</i>.",
+    "hs": 104,
+    "body": [
+     "A short, clear read on getting to know your skin.",
+     "Comment GUIDE and we&#8217;ll send it to you."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "110",
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "146",
+    "pos": "50% 45%",
+    "eyebrow": "Membership",
+    "h": "Why we built our clinic around <i>membership</i>.",
+    "hs": 86
+   },
+   {
+    "kind": "text-cream",
+    "num": "01",
+    "h": "Skin responds to consistency.",
+    "hs": 88,
+    "body": [
+     "One-off treatments have their place. But most skin goals are reached over months, not in a single visit."
+    ]
+   },
+   {
+    "kind": "text-choc",
+    "num": "02",
+    "h": "Two ways to start.",
+    "hs": 80,
+    "extra": "<div style='margin-top:46px'><div class='tier'><div class='t'><span class='n'>Foundation</span><span class='p'>$14.95 a week</span></div><div class='d'>Unlimited LED</div></div><div class='tier'><div class='t'><span class='n'>Renew</span><span class='p'>$34.95 a week</span></div><div class='d'>Everything in Foundation, plus one skin needling treatment a month</div></div><div style='font-size:24px;margin-top:30px;opacity:.75;line-height:1.45'>Skin needling is subject to consultation and suitability. Membership terms apply.</div></div>"
+   },
+   {
+    "kind": "photo",
+    "img": "209",
+    "pos": "50% 40%",
+    "num": "03",
+    "h": "Regular visits, and a team who knows your skin.",
+    "hs": 78,
+    "body": [
+     "<span style='opacity:.75;font-size:26px'>Curious which suits you? Book through the link in our bio.</span>"
+    ]
+   }
+  ]
+ }
+]
