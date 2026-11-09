@@ -1,0 +1,142 @@
+[
+ {
+  "id": "s01",
+  "date": "2026-11-10",
+  "label": "Tue 10 Nov",
+  "time": "8:30am",
+  "hook": "Curious what's right for your skin?",
+  "photo": "12",
+  "img": "/_blob/aaa6149c567ae3fc2e34b932f4285b9d",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s02",
+  "date": "2026-11-11",
+  "label": "Wed 11 Nov",
+  "time": "8:30am",
+  "hook": "Questions you've been meaning to ask?",
+  "photo": "222",
+  "img": "/_blob/00f18a4cf5c6166dc22770785156b7aa",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s03",
+  "date": "2026-11-12",
+  "label": "Thu 12 Nov",
+  "time": "8:30am",
+  "hook": "Your skin, your pace.",
+  "photo": "60",
+  "img": "/_blob/dd6e5f2e4eae9adac0735e60cf4de0e5",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s04",
+  "date": "2026-11-13",
+  "label": "Fri 13 Nov",
+  "time": "8:30am",
+  "hook": "Not sure where to begin?",
+  "photo": "110",
+  "img": "/_blob/217f4a684d9a26926fb1c0b72f8d89cf",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s05",
+  "date": "2026-11-14",
+  "label": "Sat 14 Nov",
+  "time": "8:30am",
+  "hook": "Some weeks need a little quiet.",
+  "photo": "116",
+  "img": "/_blob/6e88eead5e4b7584d9d8f3eaaac7f1e0",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s06",
+  "date": "2026-11-15",
+  "label": "Sun 15 Nov",
+  "time": "8:30am",
+  "hook": "Understand your skin before you change it.",
+  "photo": "213",
+  "img": "/_blob/8da3c3cdd027d36c840f84736e71b19f",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s07",
+  "date": "2026-11-16",
+  "label": "Mon 16 Nov",
+  "time": "8:30am",
+  "hook": "Natural is yours to define.",
+  "photo": "33",
+  "img": "/_blob/4a84af79ee1aba5d82edf03508bd9efd",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s08",
+  "date": "2026-11-17",
+  "label": "Tue 17 Nov",
+  "time": "8:30am",
+  "hook": "Twenty minutes, all about you.",
+  "photo": "171",
+  "img": "/_blob/57c4cad215f11ef53d8f52ca7f302712",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s09",
+  "date": "2026-11-18",
+  "label": "Wed 18 Nov",
+  "time": "8:30am",
+  "hook": "Thinking about it? Let's talk it through.",
+  "photo": "273",
+  "img": "/_blob/d8480c51f307049e85c5417a480e1e8d",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s10",
+  "date": "2026-11-19",
+  "label": "Thu 19 Nov",
+  "time": "8:30am",
+  "hook": "Ask us anything about your skin.",
+  "photo": "clinic-wall",
+  "img": "/_blob/0050d708fd5559d49d6a2f5a4cbc5771",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s11",
+  "date": "2026-11-20",
+  "label": "Fri 20 Nov",
+  "time": "8:30am",
+  "hook": "Ready when you are.",
+  "photo": "57",
+  "img": "/_blob/46e8e334c4fc873b7bca4aa012d65ec6",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s12",
+  "date": "2026-11-21",
+  "label": "Sat 21 Nov",
+  "time": "8:30am",
+  "hook": "Care that fits around your week.",
+  "photo": "152",
+  "img": "/_blob/8a50f6e6da9548a59f42fac68bbd0756",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s13",
+  "date": "2026-11-22",
+  "label": "Sun 22 Nov",
+  "time": "8:30am",
+  "hook": "A considered approach, guided by your skin.",
+  "photo": "261",
+  "img": "/_blob/1305b76064f821e7db66dff50b259b68",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s14",
+  "date": "2026-11-23",
+  "label": "Mon 23 Nov",
+  "time": "8:30am",
+  "hook": "We'd love to meet you.",
+  "photo": "clinic-hug",
+  "img": "/_blob/5a10dc858de49cd246b8aa236bb29f2f",
+  "status": "Scheduled in Buffer"
+ }
+]
