@@ -124,8 +124,8 @@ def slide_html(s, n, total, W, H):
         # Instagram Story: logo + hook + the three appointment types in the top ~55%,
         # lower area left clear for the link sticker. Variant "photo" = full bleed, "panel" = cream panel over photo.
         items = ('<div class="st-list'+(' compact' if s.get('compact') else '')+'">'
-                 '<p><span>Aesthetic consultation</span><em>with Nurse Fernanda</em></p>'
-                 '<p><span>LED</span></p><p><span>Skin</span></p></div>')
+                 + ('<p><span>Aesthetic consultation</span></p>' if s.get('nonurse') else '<p><span>Aesthetic consultation</span><em>with Nurse Fernanda</em></p>')
+                 + '<p><span>LED</span></p><p><span>Skin</span></p></div>')
         cta = f'<div class="st-cta">{s.get("cta","Tap the link to book.")}</div>'
         block = f'{eyebrow}<div style="height:24px"></div><h1 style="font-size:{hs}px">{s["h"]}</h1>{items}{cta}'
         if s.get("variant", "photo") == "photo":

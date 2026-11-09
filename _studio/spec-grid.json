@@ -16,7 +16,8 @@
     "pos": "50% 38%",
     "h": "Curious what&#8217;s right for <i>your</i> skin?",
     "hs": 62,
-    "top": 540
+    "top": 540,
+    "nonurse": true
    }
   ]
  },
@@ -38,7 +39,8 @@
     "h": "Questions you&#8217;ve been meaning to <i>ask</i>?",
     "hs": 62,
     "panel": "cream",
-    "frac": 0.42
+    "frac": 0.42,
+    "nonurse": true
    }
   ]
  },
@@ -59,7 +61,8 @@
     "pos": "50% 42%",
     "h": "Your skin, <i>your</i> pace.",
     "hs": 70,
-    "top": 540
+    "top": 540,
+    "nonurse": true
    }
   ]
  },
@@ -81,7 +84,8 @@
     "h": "Understand your skin <i>before</i> you change it.",
     "hs": 62,
     "panel": "oat",
-    "frac": 0.42
+    "frac": 0.42,
+    "nonurse": true
    }
   ]
  },
@@ -102,7 +106,8 @@
     "pos": "50% 32%",
     "h": "Natural is yours to <i>define</i>.",
     "hs": 70,
-    "top": 540
+    "top": 540,
+    "nonurse": true
    }
   ]
  },
@@ -123,7 +128,8 @@
     "pos": "45% 38%",
     "h": "Thinking about it? Let&#8217;s talk it <i>through</i>.",
     "hs": 62,
-    "top": 540
+    "top": 540,
+    "nonurse": true
    }
   ]
  },
@@ -144,7 +150,8 @@
     "pos": "50% 42%",
     "h": "Ready when <i>you</i> are.",
     "hs": 70,
-    "top": 540
+    "top": 540,
+    "nonurse": true
    }
   ]
  },
@@ -166,7 +173,8 @@
     "h": "We&#8217;d love to <i>meet</i> you.",
     "hs": 70,
     "panel": "choc",
-    "frac": 0.42
+    "frac": 0.42,
+    "nonurse": true
    }
   ]
  }
