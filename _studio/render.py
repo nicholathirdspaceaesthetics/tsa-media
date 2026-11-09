@@ -140,7 +140,7 @@ def slide_html(s, n, total, W, H):
             col = "cream" if bg in ("choc", "deep") else "choc"
             inner = f'''<div class="split-img" style="top:auto;bottom:0;height:{ih}px;background-image:url({photo_url(s["img"])});background-position:{s.get('pos','center')}"></div>
             <div class="split-panel bg-{bg}" style="top:0;bottom:{ih}px"><div class="grain"></div>
-            <div class="pad" style="position:absolute;inset:0;padding-top:170px;justify-content:flex-start"><img class="logo" src="data:image/png;base64,{LOGO[col]}" style="width:230px;margin-bottom:60px"><div>{block}</div></div></div>'''
+            <div class="pad" style="position:absolute;inset:0;padding-top:170px;justify-content:flex-start">{'' if s.get('nologo') else f'<img class="logo" src="data:image/png;base64,{LOGO[col]}" style="width:230px;margin-bottom:60px">'}<div>{block}</div></div></div>'''
             tone = "light" if bg in ("choc", "deep") else "dark"
     elif kind == "logo":
         bg = s.get("bg", "cream")
