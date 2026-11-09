@@ -35,6 +35,12 @@ body{font-family:P,sans-serif;font-weight:300;color:var(--ink);position:relative
 .bg-cream{background:linear-gradient(160deg,#F5EFE6,#EBE1D3)}
 .bg-oat{background:linear-gradient(160deg,#EFE6D9,#E2D4C1)}
 .bg-choc{background:linear-gradient(150deg,#6E4C29,#4A3119);color:var(--paper)}
+.bg-fcream{background:linear-gradient(160deg,#F8F2EA,#EFE5D8)}
+.bg-cherry{background:linear-gradient(150deg,#A61B33,#74101F);color:var(--paper)}
+body.founder .eyebrow,body.founder .num{color:#A61B33}
+body.founder .bg-cherry .eyebrow,body.founder .bg-cherry .num{color:#F2C9CF}
+body.founder .on-photo .eyebrow,body.founder .on-photo .num{color:#F6D7DB}
+body.founder h1 i{color:inherit}
 .bg-deep{background:linear-gradient(120deg,#4B321B,#2E1F11);color:var(--paper)}
 .grain{position:absolute;inset:0;background:url("GRAIN");opacity:.16;mix-blend-mode:multiply;pointer-events:none;z-index:5}
 .bg-choc .grain,.bg-deep .grain{mix-blend-mode:overlay;opacity:.22}
@@ -95,15 +101,15 @@ def slide_html(s, n, total, W, H):
     body = f'<div class="body" style="margin-top:34px">{"".join(f"<p>{x}</p>" for x in s.get("body", []))}</div>' if s.get("body") else ""
     extra = s.get("extra", "")
     inner = ""
-    if kind in ("text-cream", "text-oat", "text-choc", "text-deep"):
+    if kind in ("text-cream", "text-oat", "text-choc", "text-deep", "text-cherry", "text-fcream"):
         bg = kind.split("-")[1]
         just = {"top": "flex-start", "center": "center", "bottom": "flex-end"}[s.get("align", "center")]
         logo = ""
         if s.get("logo_top"):
-            logo = f'<img class="logo" src="data:image/png;base64,{LOGO["cream" if bg in ("choc","deep") else "choc"]}" style="width:300px;margin-bottom:auto">'
+            logo = f'<img class="logo" src="data:image/png;base64,{LOGO["cream" if bg in ("choc","deep","cherry") else "choc"]}" style="width:300px;margin-bottom:auto">'
         inner = f'''<div class="bg-{bg}" style="position:absolute;inset:0"></div><div class="grain"></div>
         <div class="pad" style="justify-content:{just}">{logo}<div>{eyebrow}{num}{'<div style="height:30px"></div>' if (eyebrow or num) and h1 else ''}{h1}{body}{extra}</div></div>'''
-        tone = "light" if bg in ("choc", "deep") else "dark"
+        tone = "light" if bg in ("choc", "deep", "cherry") else "dark"
         inner = f'<div class="{"bg-"+bg}" style="position:absolute;inset:0;background:none">{inner}</div>'
     elif kind == "photo":
         pos = s.get("pos", "center")
@@ -119,7 +125,7 @@ def slide_html(s, n, total, W, H):
         inner = f'''<div class="split-img" style="height:{ih}px;background-image:url({photo_url(s["img"])});background-position:{s.get('pos','center')}"></div>
         <div class="split-panel bg-{bg}" style="top:{ih}px"><div class="grain"></div>
         <div class="pad" style="position:absolute;inset:0;padding-top:58px;justify-content:flex-start"><div>{num}{eyebrow}{'<div style="height:22px"></div>' if (eyebrow or num) and h1 else ''}{h1}{body}{extra}</div></div></div>'''
-        tone = "light" if bg in ("choc", "deep") else "dark"
+        tone = "light" if bg in ("choc", "deep", "cherry") else "dark"
     elif kind == "story":
         # Instagram Story: logo + hook + the three appointment types in the top ~55%,
         # lower area left clear for the link sticker. Variant "photo" = full bleed, "panel" = cream panel over photo.
@@ -142,19 +148,19 @@ def slide_html(s, n, total, W, H):
             inner = f'''<div class="split-img" style="top:auto;bottom:0;height:{ih}px;background-image:url({photo_url(s["img"])});background-position:{s.get('pos','center')}"></div>
             <div class="split-panel bg-{bg}" style="top:0;bottom:{ih}px"><div class="grain"></div>
             <div class="pad" style="position:absolute;inset:0;padding-top:{s.get('pt',170)}px;justify-content:flex-start">{'' if s.get('nologo') else f'<img class="logo" src="data:image/png;base64,{LOGO[col]}" style="width:{s.get('lw',230)}px;margin-bottom:{s.get('lm',60)}px">'}<div>{block}</div></div></div>'''
-            tone = "light" if bg in ("choc", "deep") else "dark"
+            tone = "light" if bg in ("choc", "deep", "cherry") else "dark"
     elif kind == "logo":
         bg = s.get("bg", "cream")
         col = "cream" if bg in ("choc", "deep") else "choc"
         inner = f'''<div class="bg-{bg}" style="position:absolute;inset:0"></div><div class="grain"></div>
         <div class="pad" style="justify-content:center;align-items:center;padding-bottom:var(--p)"><img class="logo" src="data:image/png;base64,{LOGO[col]}" style="width:{s.get('w',620)}px">
         {f'<div class="body" style="margin-top:56px;text-align:center;opacity:.8;font-size:34px">{s["sub"]}</div>' if s.get("sub") else ""}</div>'''
-        tone = "light" if bg in ("choc", "deep") else "dark"
+        tone = "light" if bg in ("choc", "deep", "cherry") else "dark"
     color = "var(--paper)" if tone == "light" else "var(--ink)"
     css = BASE_CSS.replace("WPX", f"{W}px").replace("HPX", f"{H}px").replace("GRAIN", GRAIN)
     return f'''<!doctype html><html><head><meta charset="utf-8"><style>{FONT_CSS}{css}
     body{{--p:{p}px;--bs:{bs}px;color:{color}}}</style></head>
-    <body>{inner}<div style="color:{color}">{foot(s, n, total, tone)}</div></body></html>'''
+    <body class="{s.get('theme','')}">{inner}<div style="color:{color}">{foot(s, n, total, tone)}</div></body></html>'''
 
 def render(spec_path, outdir):
     spec = json.loads(pathlib.Path(spec_path).read_text())

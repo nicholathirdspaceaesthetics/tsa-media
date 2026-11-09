@@ -1,0 +1,14 @@
+[
+ {"id":"f101","slides":[
+  {"kind":"photo","theme":"founder","footl":"@nichola_stevenson","img":"222","pos":"50% 55%","h":"Oh good. Another aesthetics <i>clinic</i>.","hs":96},
+  {"kind":"split","theme":"founder","footl":"@nichola_stevenson","panel":"fcream","img":"152","pos":"50% 55%","frac":0.5,"h":"Fair. The Sunshine Coast isn&#8217;t short of them.","hs":62,"body":["When Fernanda and I started our clinic, the question wasn&#8217;t whether we could open one. It was whether there was a reason to."]},
+  {"kind":"text-cherry","theme":"founder","footl":"@nichola_stevenson","h":"What we kept hearing from women was that they didn&#8217;t know which advice applied to them,<br><span class='lt'>and they were worried about walking out looking like someone else.</span>","hs":64},
+  {"kind":"split","theme":"founder","footl":"@nichola_stevenson","panel":"fcream","img":"171","pos":"50% 45%","frac":0.52,"h":"So we start with explanation, not a menu.","hs":62,"body":["Consultation first. Recommendations once we understand someone&#8217;s skin and what they actually want."]},
+  {"kind":"split","theme":"founder","footl":"@nichola_stevenson","panel":"fcream","img":"256","pos":"50% 50%","frac":0.52,"h":"Memberships came from the same thinking.","hs":62,"body":["Skin changes over time, and so should the advice. Seeing people regularly means we notice."]},
+  {"kind":"photo","theme":"founder","footl":"@nichola_stevenson","img":"116","pos":"62% 45%","eyebrow":"The detail I&#8217;m oddly proud of","h":"No phones in the treatment room.","hs":78,"body":["Clients tell us LED is the best part of their week. It turns out the modern definition of luxury is being unreachable for a bit."]},
+  {"kind":"text-fcream","theme":"founder","footl":"@nichola_stevenson","h":"We built the clinic we wanted ourselves.","hs":88,"body":["Whether we&#8217;ve got it right is something we&#8217;re still finding out, one member at a time."]}
+ ]},
+ {"id":"f124","slides":[
+  {"kind":"text-cherry","theme":"founder","footl":"@nichola_stevenson","nofoot":false,"h":"You&#8217;re only as good as your <i>team</i>.","hs":120}
+ ]}
+]

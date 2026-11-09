@@ -19,6 +19,14 @@ Nichola Stevenson, co-founder of Third Space Aesthetics, Sippy Downs, Sunshine C
 - **Booking link** (Momence, all appointment types): https://momence.com/appointments/326272
 - **Governance log**: Notion database "My AI Activity" inside "My Control Room". Every run adds one row: Title, Type "Log", Date, Made by "Claude (scheduled)", Details (two lines), Review "Logged". Governance columns blank unless a run makes a decision about a person.
 
+## Founder account (Nichola personally)
+
+- **Founder Approvals page**: https://claude.ai/artifact/UvWcH7PuZTdDCaCL8KNFd8 (same structure and `decisions` rules as the Third Space page).
+- Channels: Instagram @nichola_stevenson (use it only once it appears in Buffer list_channels; until then skip Instagram and say so), LinkedIn profile `6af13c5962b70b94b0c95e5d`, Facebook Page "Nichola Stevenson" `6aed2a79e29c69a17179e07a`. Same caption on all three (no "link in bio" swap needed unless the caption has one).
+- Design: `_studio/render.py` with `"theme":"founder"`, kinds `text-cherry` / `text-fcream` / `photo` / `split` with `"panel":"fcream"`, footer `@nichola_stevenson`. Cream and cherry red, never Third Space chocolate; no Third Space logo.
+- Pillars and rules: the Founder Account Plan doc (Claude Docs, doc 12f76286-490e-4889-bb36-f34d54a6c49f). Never mention franchising, the number of studios sold, or name team members other than Fernanda. Built only on things Nichola has actually said or done.
+- Media goes to `tsa-media/founder/<post id>/`.
+
 ## Feed posts: channel rules
 
 Every approved Third Space feed post goes to Instagram, the Facebook Page and the LinkedIn Page, at the post's date and time (Brisbane).
