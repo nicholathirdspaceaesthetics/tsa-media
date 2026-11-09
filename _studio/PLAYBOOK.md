@@ -27,6 +27,15 @@ Nichola Stevenson, co-founder of Third Space Aesthetics, Sippy Downs, Sunshine C
 - Pillars and rules: the Founder Account Plan doc (Claude Docs, doc 12f76286-490e-4889-bb36-f34d54a6c49f). Never mention franchising, the number of studios sold, or name team members other than Fernanda. Built only on things Nichola has actually said or done.
 - Media goes to `tsa-media/founder/<post id>/`.
 
+## Cover photos
+
+- Never use the same photo as a cover twice. A cover is the first slide of a feed post or a reel's cover, on any account (Third Space or founder). Check `_studio/covers-log.json` before choosing, and add the new cover to it in the same commit. Photos can appear inside a carousel again; stories are exempt.
+- If the library runs out of unused photos, say so in the summary to Nichola rather than reusing one.
+
+## Failed posts
+
+- Every run lists Buffer posts with status `error` from the last 24 hours. If the post is still relevant today, retry it once with `edit_post` (same text, assets and metadata, `mode: "shareNow"`) and check it sent. Report every failure and retry result in the summary to Nichola.
+
 ## Feed posts: channel rules
 
 Every approved Third Space feed post goes to Instagram, the Facebook Page and the LinkedIn Page, at the post's date and time (Brisbane).

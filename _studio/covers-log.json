@@ -1,0 +1,57 @@
+{
+ "rule": "A photo may be the cover (first slide or reel cover) of only one feed post, across the Third Space and founder accounts. Before rendering a new feed post, pick a cover photo not listed here, then add it. Stories are exempt.",
+ "covers": {
+  "222": [
+   "f101-another-clinic (founder, posted 10 Nov)",
+   "g02-questions (Third Space, Fri 13 Nov)"
+  ],
+  "270": [
+   "f201-booking (founder)"
+  ],
+  "152": [
+   "f202-decisions (founder)"
+  ],
+  "12": [
+   "g01-curious"
+  ],
+  "60": [
+   "g03-pace"
+  ],
+  "213": [
+   "g04-understand"
+  ],
+  "33": [
+   "g05-natural"
+  ],
+  "273": [
+   "g06-through"
+  ],
+  "57": [
+   "g07-ready"
+  ],
+  "clinic-hug": [
+   "g08-meet"
+  ],
+  "255": [
+   "104-ageing-myths"
+  ],
+  "110": [
+   "105-hormones"
+  ],
+  "264": [
+   "106-consultation"
+  ],
+  "138": [
+   "107-lifestyle"
+  ],
+  "238": [
+   "109-free-guide"
+  ],
+  "146": [
+   "110-membership"
+  ],
+  "f124 quote card (no photo)": [
+   "f105-team"
+  ]
+ }
+}
