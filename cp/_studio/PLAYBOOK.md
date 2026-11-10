@@ -23,6 +23,8 @@ This is a separate brand from Third Space. Never mix the two: different page, ch
 
 ## Feed posts
 
+- Weekly drafting: if the approvals page already has feed posts dated in next week, don't draft another set for that week; draft only what's missing to reach five.
+
 - Instagram: caption exactly as approved. `metadata.instagram {type: "post", shouldShareToFeed: true}`; `type: "reel"` for video.
 - Media in the repo at `cp/<post id>/slide-N.jpg`.
 - Alt text on every image: the slide's words.
