@@ -221,17 +221,60 @@
     "photo": "bottom",
     "img": "64",
     "pos": "50% 45%",
-    "frac": 0.46,
+    "frac": 0.5,
     "panel": "light",
     "eyebrow": "Studio note",
-    "h": "Your toes <span class='lt'>tell a story.</span>",
-    "hs": 104,
-    "body": [
-     "Spread, gripping or curling under? How your toes sit on the footbar says a lot about how you move.",
-     "Restore helps release tight feet. So do the right socks: toe grip socks give each toe its own space to spread and align."
-    ],
-    "cta": "Grab a pair at the front desk.",
+    "h": "Ever caught yourself <span class='lt'>gripping the footbar with your toes?</span>",
+    "hs": 92,
     "nofoot": true
+   },
+   {
+    "kind": "text-light",
+    "eyebrow": "Try this",
+    "h": "Stand. Spread. <span class='lt'>Notice.</span>",
+    "hs": 110,
+    "body": [
+     "Stand with your feet flat and gently spread your toes. Notice how your weight sits across each foot.",
+     "On the footbar it's the same: your toes make small adjustments as your weight shifts. They can do it while staying relaxed."
+    ],
+    "align": "center",
+    "nofoot": true,
+    "mpos": "right:-520px;bottom:-420px",
+    "ms": 1200
+   },
+   {
+    "kind": "text-ltan",
+    "eyebrow": "Toe grip socks do two jobs",
+    "h": "Grip, <span class='lt'>and room to spread.</span>",
+    "hs": 96,
+    "list": [
+     [
+      "Grip dots",
+      "traction on the footbar and floor"
+     ],
+     [
+      "Toe pockets",
+      "room for each toe to move"
+     ]
+    ],
+    "body": [
+     "A regular grip sock gives you the grip. The toe pockets are what make this style different, as long as they fit well."
+    ],
+    "align": "center",
+    "nofoot": true,
+    "mpos": "right:-520px;top:-380px",
+    "ms": 1200
+   },
+   {
+    "kind": "text-blue",
+    "eyebrow": "Try it next class",
+    "h": "Let your toes spread, <span class='lt'>then keep them soft as you press the carriage away.</span>",
+    "hs": 88,
+    "cta": "Toe grip socks at the front desk.",
+    "align": "center",
+    "nofoot": true,
+    "mpos": "right:-520px;bottom:-420px",
+    "ms": 1200
    }
   ]
  },
