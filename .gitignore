@@ -1,0 +1,5 @@
+
+# Renderer dependencies installed per session
+node_modules/
+package.json
+package-lock.json
