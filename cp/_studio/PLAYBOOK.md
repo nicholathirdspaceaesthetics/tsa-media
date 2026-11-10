@@ -60,6 +60,7 @@ We are not just another reformer studio. Club Pilates Sippy Downs is a **fully e
 - Four levels: 1 Foundations, 1.5 Progression, 2 Evolution (needs 1.5 experience and instructor approval), 2.5 Mastery (needs level 2 experience and instructor approval).
 - Instructors complete 500+ hours of training.
 - Grip socks are required in every class.
+- Toe alignment (Nichola): your toes tell a story; Restore helps release tight feet, and toe grip socks give each toe space to spread and align. The studio sells socks at the front desk.
 - Equipment in our studio: reformers, Wunda chairs, springboards (confirmed by Nichola), plus the brand book's list of small equipment (Pilates ball, sitting box, mat, foam roller). Don't mention a piece of equipment the photos don't show unless Nichola confirms we have it.
 - Club Pilates Sippy Downs: AUSactive 2025 Pilates Business of the Year.
 

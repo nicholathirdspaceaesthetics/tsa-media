@@ -200,8 +200,8 @@
   "slides": [
    {
     "kind": "photo",
-    "img": "169",
-    "pos": "50% 30%",
+    "img": "250",
+    "pos": "45% 30%",
     "textpos": "bottom",
     "eyebrow": "Your first class is on us",
     "h": "Curious what a reformer <span class='lt'>actually feels like?</span>",
@@ -217,17 +217,21 @@
   "story": true,
   "slides": [
    {
-    "kind": "text-light",
+    "kind": "split",
+    "photo": "bottom",
+    "img": "64",
+    "pos": "50% 45%",
+    "frac": 0.46,
+    "panel": "light",
     "eyebrow": "Studio note",
-    "h": "Grip socks, <span class='lt'>every class.</span>",
+    "h": "Your toes <span class='lt'>tell a story.</span>",
     "hs": 104,
     "body": [
-     "They keep your feet where they should be on the reformer. Forgot yours? We have some at the front desk."
+     "Spread, gripping or curling under? How your toes sit on the footbar says a lot about how you move.",
+     "Restore helps release tight feet. So do the right socks: toe grip socks give each toe its own space to spread and align."
     ],
-    "align": "center",
-    "nofoot": true,
-    "mpos": "right:-520px;bottom:-420px",
-    "ms": 1200
+    "cta": "Grab a pair at the front desk.",
+    "nofoot": true
    }
   ]
  },
