@@ -195,6 +195,71 @@
   ]
  },
  {
+  "id": "cp107",
+  "slides": [
+   {
+    "kind": "split",
+    "photo": "top",
+    "img": "64",
+    "pos": "50% 45%",
+    "frac": 0.52,
+    "panel": "light",
+    "eyebrow": "Studio note",
+    "h": "Ever caught yourself <span class='lt'>gripping the footbar with your toes?</span>",
+    "hs": 76,
+    "pt": 56
+   },
+   {
+    "kind": "text-light",
+    "eyebrow": "Try this",
+    "h": "Stand. Spread. <span class='lt'>Notice.</span>",
+    "hs": 96,
+    "body": [
+     "Stand with your feet flat and gently spread your toes. Notice how your weight sits across each foot.",
+     "On the footbar it's the same: your toes make small adjustments as your weight shifts. They can do it while staying relaxed."
+    ],
+    "align": "center",
+    "mpos": "right:-520px;bottom:-420px",
+    "ms": 1200,
+    "bs": 33
+   },
+   {
+    "kind": "text-ltan",
+    "eyebrow": "Toe grip socks do two jobs",
+    "h": "Grip, <span class='lt'>and room to spread.</span>",
+    "hs": 84,
+    "list": [
+     [
+      "Grip dots",
+      "traction on the footbar and floor"
+     ],
+     [
+      "Toe pockets",
+      "room for each toe to move"
+     ]
+    ],
+    "body": [
+     "A regular grip sock gives you the grip. The toe pockets are what make this style different, as long as they fit well."
+    ],
+    "align": "center",
+    "mpos": "right:-520px;top:-380px",
+    "ms": 1200,
+    "bs": 32,
+    "ls": 32
+   },
+   {
+    "kind": "text-blue",
+    "eyebrow": "Try it next class",
+    "h": "Let your toes spread, <span class='lt'>then keep them soft as you press the carriage away.</span>",
+    "hs": 76,
+    "cta": "Toe grip socks at the front desk.",
+    "align": "center",
+    "mpos": "right:-520px;bottom:-420px",
+    "ms": 1200
+   }
+  ]
+ },
+ {
   "id": "cps1",
   "story": true,
   "slides": [
