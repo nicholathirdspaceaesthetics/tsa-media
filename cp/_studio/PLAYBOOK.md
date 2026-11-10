@@ -41,12 +41,18 @@ Nichola approved the three story formats on the approvals page; after that, rout
 | Slot | Time | Format | Layout |
 |---|---|---|---|
 | Morning | 7:00am | Intro class invitation: a new hook each day, pill "Free intro class" | `photo`, text at the bottom |
-| Midday | 12:00pm | Studio note: grip socks, what to wear, arriving early for a first class, how levels work, how to book, what the equipment is called | `text-light` / `text-ltan` / `text-blue`, rotating |
+| Midday | 12:00pm | Studio note: grip socks, what to wear, arriving early for a first class, how levels work, how to book, meet the equipment (reformer, Wunda chair, springboard) | `text-light` / `text-ltan` / `text-blue`, rotating |
 | Evening | 5:30pm | Class spotlight: one format or level, a line on who it suits, "Find it on the schedule, link in bio." | `split`, photo at the bottom |
 
 - `metadata.instagram {type: "story", shouldShareToFeed: false}`, no link field. Automatically published stories can't carry a link sticker, so the words always say "link in bio", never "tap".
 - Never reuse a hook in `stories-log.json`. Least recently used photo first; never the same photo twice in one day or on consecutive days in the same slot.
-- Only class formats named on the studio's own pages or by Nichola (Reformer Flow, Restore, and the four levels so far). Add to `formats.json` when Nichola confirms more. Never invent a class, time, instructor or price.
+- Only class formats named on the studio's own pages or by Nichola (Reformer Flow, Restore (myofascial release), and the four levels so far). Add to `formats.json` when Nichola confirms more. Never invent a class, time, instructor or price.
+
+## Positioning (Nichola's instruction, use it often)
+
+We are not just another reformer studio. Club Pilates Sippy Downs is a **fully equipped Pilates studio**: reformers, **Wunda chairs** and **springboards**, used in our classes. Make that point at least once a week across feed posts and stories (a caption line, a carousel, an equipment story), always with a real studio photo of that equipment in use. Call the chair the "Wunda chair". Never knock other studios by name.
+
+**Restore is myofascial release**, not "just stretching". Describe it as myofascial release on the equipment that works into tight, tired muscles. No pain-relief, injury or medical claims.
 
 ## Facts we can use
 
@@ -54,7 +60,7 @@ Nichola approved the three story formats on the approvals page; after that, rout
 - Four levels: 1 Foundations, 1.5 Progression, 2 Evolution (needs 1.5 experience and instructor approval), 2.5 Mastery (needs level 2 experience and instructor approval).
 - Instructors complete 500+ hours of training.
 - Grip socks are required in every class.
-- Equipment: reformer, springboard, chair, jumpboard, TRX, mat, sitting box, Pilates ball, Bosu, foam roller, Cadillac.
+- Equipment in our studio: reformers, Wunda chairs, springboards (confirmed by Nichola), plus the brand book's list of small equipment (Pilates ball, sitting box, mat, foam roller). Don't mention a piece of equipment the photos don't show unless Nichola confirms we have it.
 - Club Pilates Sippy Downs: AUSactive 2025 Pilates Business of the Year.
 
 ## Compliance and voice

@@ -1,3 +1,18 @@
-{"_note": "Only formats confirmed on the studio's pages or by Nichola. Add more when she confirms them.",
- "formats": {"Reformer Flow": "Reformer-based Pilates with a contemporary flow.", "Restore": "Slower, deeper stretching on the equipment."},
- "levels": {"1": "Foundations", "1.5": "Progression", "2": "Evolution", "2.5": "Mastery"}}
+{
+ "_note": "Only formats confirmed on the studio's pages or by Nichola. Add more when she confirms them.",
+ "formats": {
+  "Reformer Flow": "Reformer-based Pilates with a contemporary flow.",
+  "Restore": "Myofascial release on the equipment: a slower class that works into tight, tired muscles, then moves you through them. Never call it just stretching."
+ },
+ "levels": {
+  "1": "Foundations",
+  "1.5": "Progression",
+  "2": "Evolution",
+  "2.5": "Mastery"
+ },
+ "equipment": {
+  "Reformer": "Springs, straps and a moving carriage. Where most classes start.",
+  "Wunda chair": "Small footprint, big challenge: balance, strength and control.",
+  "Springboard": "Springs on the wall for standing, arm and leg work against resistance."
+ }
+}

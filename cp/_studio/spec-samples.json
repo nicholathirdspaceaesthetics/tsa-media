@@ -1,29 +1,256 @@
 [
- {"id": "cp101", "slides": [
-  {"kind": "split", "img": "113", "pos": "50% 30%", "frac": 0.56, "panel": "ltan", "eyebrow": "New to reformer", "h": "Never been on a reformer? <span class='lt'>Good. Start here.</span>", "hs": 70, "pill": "Your free intro class", "pt": 56}
- ]},
- {"id": "cp102", "slides": [
-  {"kind": "photo", "img": "14", "pos": "50% 50%", "eyebrow": "Four levels, explained", "h": "Which class <span class='lt'>is mine?</span>", "hs": 104, "body": ["Swipe for the short version."]},
-  {"kind": "text-ltan", "eyebrow": "Where everyone starts", "h": "Level 1 <span class='lt'>and 1.5</span>", "hs": 84, "list": [["Level 1, Foundations", "the fundamentals"], ["Level 1.5, Progression", "more stability work"]], "body": ["Level 1 is where you learn the equipment and the basics, and it's easy to modify. Level 1.5 adds more complex movement once those feel familiar."]},
-  {"kind": "text-light", "eyebrow": "When you're ready", "h": "Level 2 <span class='lt'>and 2.5</span>", "hs": 84, "list": [["Level 2, Evolution", "faster, harder"], ["Level 2.5, Mastery", "precision work"]], "body": ["Both need Club Pilates experience at the level below and a nod from your instructor. There's no rush."]},
-  {"kind": "text-blue", "eyebrow": "Not sure where you fit?", "h": "Start with an <span class='lt'>intro class.</span>", "hs": 90, "body": ["Your instructor will help you find your level from there."], "pill": "Link in bio"}
- ]},
- {"id": "cp103", "slides": [
-  {"kind": "photo", "img": "26", "pos": "45% 40%", "eyebrow": "Behind every class", "h": "500+ hours <span class='lt'>of training.</span>", "hs": 100, "body": ["That's what it takes to teach at Club Pilates. It's also why your instructor can adjust almost anything."]}
- ]},
- {"id": "cp104", "slides": [
-  {"kind": "quote", "bg": "blue", "eyebrow": "A note for the weekend", "q": "Strong is a lovely word. <br>So is steady.", "hs": 96, "mpos": "right:-480px;bottom:-480px", "ms": 1150}
- ]},
- {"id": "cp105", "slides": [
-  {"kind": "photo", "img": "6", "pos": "50% 50%", "eyebrow": "AUSactive Awards 2025", "h": "Pilates Business <span class='lt'>of the Year.</span>", "hs": 96, "body": ["It belongs to our members and our team. Thank you."]}
- ]},
- {"id": "cps1", "story": true, "slides": [
-  {"kind": "photo", "img": "169", "pos": "50% 30%", "textpos": "bottom", "eyebrow": "Your first class is on us", "h": "Curious what a reformer <span class='lt'>actually feels like?</span>", "hs": 86, "pill": "Free intro class", "nofoot": true, "p": 96}
- ]},
- {"id": "cps2", "story": true, "slides": [
-  {"kind": "text-light", "eyebrow": "Studio note", "h": "Grip socks, <span class='lt'>every class.</span>", "hs": 104, "body": ["They keep your feet where they should be on the reformer. Forgot yours? We have some at the front desk."], "align": "center", "nofoot": true, "mpos": "right:-520px;bottom:-420px", "ms": 1200}
- ]},
- {"id": "cps3", "story": true, "slides": [
-  {"kind": "split", "photo": "bottom", "img": "250", "pos": "50% 35%", "frac": 0.5, "panel": "ltan", "eyebrow": "Class spotlight", "h": "Restore", "hs": 120, "body": ["Slower, deeper stretching on the equipment. A good one for the end of a long week."], "cta": "Find it on the schedule, link in bio.", "nofoot": true}
- ]}
+ {
+  "id": "cp101",
+  "slides": [
+   {
+    "kind": "split",
+    "img": "113",
+    "pos": "50% 30%",
+    "frac": 0.56,
+    "panel": "ltan",
+    "eyebrow": "New to reformer",
+    "h": "Never been on a reformer? <span class='lt'>Good. Start here.</span>",
+    "hs": 70,
+    "pill": "Your free intro class",
+    "pt": 56
+   }
+  ]
+ },
+ {
+  "id": "cp102",
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "14",
+    "pos": "50% 50%",
+    "eyebrow": "Four levels, explained",
+    "h": "Which class <span class='lt'>is mine?</span>",
+    "hs": 104,
+    "body": [
+     "Swipe for the short version."
+    ]
+   },
+   {
+    "kind": "text-ltan",
+    "eyebrow": "Where everyone starts",
+    "h": "Level 1 <span class='lt'>and 1.5</span>",
+    "hs": 84,
+    "list": [
+     [
+      "Level 1, Foundations",
+      "the fundamentals"
+     ],
+     [
+      "Level 1.5, Progression",
+      "more stability work"
+     ]
+    ],
+    "body": [
+     "Level 1 is where you learn the equipment and the basics, and it's easy to modify. Level 1.5 adds more complex movement once those feel familiar."
+    ]
+   },
+   {
+    "kind": "text-light",
+    "eyebrow": "When you're ready",
+    "h": "Level 2 <span class='lt'>and 2.5</span>",
+    "hs": 84,
+    "list": [
+     [
+      "Level 2, Evolution",
+      "faster, harder"
+     ],
+     [
+      "Level 2.5, Mastery",
+      "precision work"
+     ]
+    ],
+    "body": [
+     "Both need Club Pilates experience at the level below and a nod from your instructor. There's no rush."
+    ]
+   },
+   {
+    "kind": "text-blue",
+    "eyebrow": "Not sure where you fit?",
+    "h": "Start with an <span class='lt'>intro class.</span>",
+    "hs": 90,
+    "body": [
+     "Your instructor will help you find your level from there."
+    ],
+    "pill": "Link in bio"
+   }
+  ]
+ },
+ {
+  "id": "cp103",
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "26",
+    "pos": "45% 40%",
+    "eyebrow": "Behind every class",
+    "h": "500+ hours <span class='lt'>of training.</span>",
+    "hs": 100,
+    "body": [
+     "That's what it takes to teach at Club Pilates. It's also why your instructor can adjust almost anything."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cp104",
+  "slides": [
+   {
+    "kind": "quote",
+    "bg": "blue",
+    "eyebrow": "A note for the weekend",
+    "q": "Strong is a lovely word. <br>So is steady.",
+    "hs": 96,
+    "mpos": "right:-480px;bottom:-480px",
+    "ms": 1150
+   }
+  ]
+ },
+ {
+  "id": "cp105",
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "6",
+    "pos": "50% 50%",
+    "eyebrow": "AUSactive Awards 2025",
+    "h": "Pilates Business <span class='lt'>of the Year.</span>",
+    "hs": 96,
+    "body": [
+     "It belongs to our members and our team. Thank you."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cp106",
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "123",
+    "pos": "50% 40%",
+    "eyebrow": "More than a reformer studio",
+    "h": "A fully equipped <span class='lt'>Pilates studio.</span>",
+    "hs": 96,
+    "body": [
+     "Swipe to meet the equipment."
+    ]
+   },
+   {
+    "kind": "split",
+    "img": "113",
+    "pos": "50% 30%",
+    "frac": 0.58,
+    "panel": "ltan",
+    "eyebrow": "01 \u00b7 The reformer",
+    "h": "Where most <span class='lt'>classes start.</span>",
+    "hs": 72,
+    "body": [
+     "Springs, straps and a moving carriage. Support when you need it, resistance when you don't."
+    ],
+    "nologo": true,
+    "pt": 56
+   },
+   {
+    "kind": "split",
+    "img": "165",
+    "pos": "50% 35%",
+    "frac": 0.58,
+    "panel": "light",
+    "eyebrow": "02 \u00b7 The Wunda chair",
+    "h": "Small footprint. <span class='lt'>Big challenge.</span>",
+    "hs": 72,
+    "body": [
+     "Balance, strength and control, with nowhere to hide. Members tend to love it and fear it in equal measure."
+    ],
+    "nologo": true,
+    "pt": 56
+   },
+   {
+    "kind": "split",
+    "img": "186",
+    "pos": "50% 30%",
+    "frac": 0.58,
+    "panel": "ltan",
+    "eyebrow": "03 \u00b7 The springboard",
+    "h": "Springs on <span class='lt'>the wall.</span>",
+    "hs": 72,
+    "body": [
+     "Standing work, arm work and leg work against spring resistance, a world away from lying on a reformer."
+    ],
+    "nologo": true,
+    "pt": 56
+   },
+   {
+    "kind": "text-blue",
+    "eyebrow": "Every piece has a purpose",
+    "h": "Your instructor knows <span class='lt'>which one you need.</span>",
+    "hs": 84,
+    "pill": "Free intro class"
+   }
+  ]
+ },
+ {
+  "id": "cps1",
+  "story": true,
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "169",
+    "pos": "50% 30%",
+    "textpos": "bottom",
+    "eyebrow": "Your first class is on us",
+    "h": "Curious what a reformer <span class='lt'>actually feels like?</span>",
+    "hs": 86,
+    "pill": "Free intro class",
+    "nofoot": true,
+    "p": 96
+   }
+  ]
+ },
+ {
+  "id": "cps2",
+  "story": true,
+  "slides": [
+   {
+    "kind": "text-light",
+    "eyebrow": "Studio note",
+    "h": "Grip socks, <span class='lt'>every class.</span>",
+    "hs": 104,
+    "body": [
+     "They keep your feet where they should be on the reformer. Forgot yours? We have some at the front desk."
+    ],
+    "align": "center",
+    "nofoot": true,
+    "mpos": "right:-520px;bottom:-420px",
+    "ms": 1200
+   }
+  ]
+ },
+ {
+  "id": "cps3",
+  "story": true,
+  "slides": [
+   {
+    "kind": "split",
+    "photo": "bottom",
+    "img": "68",
+    "pos": "50% 45%",
+    "frac": 0.5,
+    "panel": "ltan",
+    "eyebrow": "Class spotlight",
+    "h": "Restore",
+    "hs": 120,
+    "body": [
+     "Myofascial release on the equipment. A slower class that works into tight, tired muscles, then moves you through them."
+    ],
+    "cta": "Find it on the schedule, link in bio.",
+    "nofoot": true
+   }
+  ]
+ }
 ]

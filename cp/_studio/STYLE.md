@@ -1,6 +1,6 @@
 # Club Pilates Sippy Downs: social style guide
 
-The design kit for @clubpilatessippy. It sits inside the 2026 Club Pilates Brand Book (franchisor's rules always win) and gives the studio a calmer, more editorial local feel than the national templates.
+The design kit for @clubpilatessippy. Our positioning: a fully equipped Pilates studio (reformer, Wunda chair, springboard), not just another reformer studio. It sits inside the 2026 Club Pilates Brand Book (franchisor's rules always win) and gives the studio a calmer, more editorial local feel than the national templates.
 
 ## Brand rules we never break (from the brand book)
 
@@ -53,7 +53,7 @@ The brand book's voice (warm, empowering, positive, inclusive, knowledgeable, su
 ## Content mix (per week)
 
 1. First-timers: what the intro class is, what to bring, what to expect.
-2. Education: levels, class formats, equipment, a cue explained.
+2. Education: levels, class formats (Restore is myofascial release), the equipment beyond the reformer (Wunda chair, springboard), a cue explained. At least one post or story a week shows we're fully equipped.
 3. Instructors and team: training, craft, personalities (first names only with their OK).
 4. Community: members (no names unless they've agreed), milestones, awards, studio life.
 5. Quote card (Saturday).
