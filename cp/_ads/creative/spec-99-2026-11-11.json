@@ -1,0 +1,6 @@
+[
+ {"id":"t99-n1-feed","slides":[{"kind":"split","img":"6","pos":"50% 55%","frac":0.56,"panel":"blue","eyebrow":"21 days unlimited","h":"Every class you like. <span class='lt'>$99.</span>","hs":84,"body":["Starts with a free 30-minute intro class."],"pt":56}]},
+ {"id":"t99-n1-story","story":true,"slides":[{"kind":"split","img":"6","photo":"bottom","pos":"50% 55%","frac":0.5,"panel":"blue","pt":300,"eyebrow":"21 days unlimited","h":"Every class you like. <span class='lt'>$99.</span>","hs":90,"body":["Starts with a free 30-minute intro class."],"nofoot":true}]},
+ {"id":"t99-n2-feed","slides":[{"kind":"photo","img":"165","pos":"50% 45%","eyebrow":"21 days unlimited, $99","h":"Three weeks to make it <span class='lt'>a habit.</span>","hs":88,"body":["Reformer, Wunda chair, springboard. A live instructor every class."]}]},
+ {"id":"t99-n2-story","story":true,"slides":[{"kind":"split","img":"165","photo":"bottom","pos":"50% 45%","frac":0.5,"panel":"ltan","pt":300,"eyebrow":"21 days unlimited, $99","h":"Three weeks to make it <span class='lt'>a habit.</span>","hs":88,"body":["Reformer, Wunda chair, springboard. A live instructor every class."],"nofoot":true}]}
+]

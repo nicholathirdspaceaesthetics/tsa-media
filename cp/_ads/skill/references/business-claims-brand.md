@@ -56,8 +56,8 @@ Status key: **V** = independently verified, **O** = owner-supplied (keep as owne
 | Offer | Status | What we know | What must be confirmed before any ad |
 |---|---|---|---|
 | A. Free intro class | Live national offer | 30-minute full-body intro with an instructor, for first-timers; booked via form then link, or the try page | Nothing extra. Exact eligibility edge cases (people who've done Pilates elsewhere, lapsed members) are not defined: say "new to Club Pilates" and let staff handle edge cases. Lapsed members are not a free-intro audience; win them back through ClubReady and Tyson, not this offer |
-| B. Four classes for A$40 (in the Club Pilates app) | Chosen by Nichola 11 Nov 2026, terms not yet supplied | Bought in the app. Not on the website packages tab (website: Single class $40, 30-day expiry; Intro Offer 3 credits $75, 14-day expiry; 10-class pack $360, 60-day expiry) | Eligibility, which classes and levels, expiry, whether the free intro comes first, exact app steps or link, franchisor approval. "4 classes for the price of one" is only safe while a single class is genuinely $40 |
-| 21 days unlimited for $99 | Live (Nichola's campaign, ~$10/day) | Copy says everyone starts with the complimentary intro; staff explain and sign up by phone or app | Existing; don't reactivate older promos |
+| B. Paid intro pack | None running. 4 for $40 and 3 for $25 were considered and dropped on 11 Nov 2026 | The paid offer is the 21 days unlimited for $99 (row below) | Don't revive without Nichola |
+| 21 days unlimited for $99 | Live (Nichola's campaign, about A$10/day). The paid offer | Approved copy: everyone starts with the complimentary intro; staff explain the offer and sign people up by phone or in the Club Pilates app; "The intro is free; the 21-day unlimited offer is $99." | Eligibility (new to Club Pilates?) before stating it |
 | Close offers at the intro (2 weeks free, 1 month free, 20% off, joining fee waived) | Studio practice | Used in person | Never put in ads unless Nichola approves a specific one with terms |
 
 Nichola's own read: past 4-for-$40 and 5-for-$50 promos converted poorly to membership. Treat paid packs as unproven.

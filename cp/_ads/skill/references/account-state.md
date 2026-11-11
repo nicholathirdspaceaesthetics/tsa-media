@@ -6,8 +6,8 @@ This file changes. Snapshot date: **11 November 2026**. If `cp/_ads/STATE.md` in
 
 1. Test lead seen in the correct ClubReady record: not yet confirmed (franchisor guide: submit a test lead and have it confirmed before advertising).
 2. Who pays for the four May/June ads on the studio Page, and whether they count in the A$2,000 ceiling.
-3. Offer B (4 classes for $40): expiry, eligibility, which classes/levels, whether the free intro comes first, the exact in-app purchase steps or link, franchisor sign-off.
-4. Pausing the live $99 campaign when the 4-for-$40 test starts (needs Nichola's yes).
+3. New $99 creative (two concepts, studio kit) awaiting approval before it replaces the franchisor stock-image ad on the live campaign; $99 daily budget (A$10 now, A$15 proposed).
+4. $99 offer eligibility (new to Club Pilates?) and any other terms to state in the copy.
 5. Claims to confirm: five-star review count; which instructors are Diploma-trained; 500+ hours for every instructor.
 
 Remove items here as they are decided, and log the decision below.
@@ -62,3 +62,4 @@ Remove items here as they are decided, and log the decision below.
 - 2026-11-11: Offer B changed from 3 classes for $25 to **4 classes for $40, purchased in the Club Pilates app** (Nichola). Not listed on the website packages tab (website shows Single $40, Intro 3 credits $75/14 days, 10-pack $360). Existing form "4 Sessions for $40 [CAP]" (Jul 2025, 0 leads) is generic ("Register your details for more info"); a fresh form with the real terms and app steps is needed. The ad is an enquiry route unless a direct purchase link exists: report as leads, then purchases from ClubReady.
 - 2026-11-11: Proposed allocation (awaiting yes): free intro A$45/day + 4-for-$40 A$15/day = A$60/day (about A$1,860 in a 31-day month), with the $99 campaign paused when the pack starts.
 - 2026-11-11: Franchisor connector guide: the CAP app routes any lead form with tracking parameter use_connector_app=true (lowercase, underscores) once the Page is authorised; extra parameters such as fb_campaign or clubready_note pass through to ClubReady (fb_campaign overrides clubready_note). Use fb_campaign=<concept name> to see which ad a lead came from in ClubReady.
+- 2026-11-11 (later): 4-for-$40 dropped (Nichola). The live "21 days unlimited for $99" campaign stays as the paid offer; its creative is to be refreshed (current ad uses a franchisor stock template with a model, not studio photos). No paid-pack test for now.
