@@ -1,0 +1,7 @@
+## Decisions log (append newest at the bottom; date, decision, reason, scope)
+
+- 2026-11-10: Club Pilates leads go to ClubReady via the franchisor's CAP connector app (a Zapier "Club Pilates Sippy Downs CRM Connection" is also attached to the Example form; duplicates in ClubReady would point there). Launch condition set 10 Nov: a test lead must be confirmed in ClubReady (by the franchisor or Tyson) before the new campaign goes live; status unconfirmed on 11 Nov. Lead delivery to ClubReady is not the same as CRM feedback to Meta: no Conversions API for CRM feedback is known to exist: verify before relying on it.
+- 2026-11-10: Nichola approved building one always-on free-intro lead campaign with new creative, switched off, launch after the test lead is confirmed. Budget A$80/day approved that day; superseded for planning by the 11 Nov A$1,500 instruction until she reconfirms.
+- 2026-11-10: SMS verification, multi-advertiser ads and auto-added related media turned off on the draft; AI image, video and text enhancements not applied. Recheck on every new ad.
+- 2026-11-11: Award wording corrected to "joint winner" framing after checking AUSactive. Organic post cp105 ("AUSactive Awards 2025, Pilates Business of the Year") also implies a sole win: flagged to Nichola.
+- 2026-11-11: "Over 50?" style hooks rejected under Meta's personal-attributes policy; use eligibility or benefit framing instead.
