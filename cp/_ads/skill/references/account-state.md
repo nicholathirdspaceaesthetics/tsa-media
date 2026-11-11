@@ -6,8 +6,6 @@ This file changes. Snapshot date: **11 November 2026**. If `cp/_ads/STATE.md` in
 
 1. Test lead seen in the correct ClubReady record: not yet confirmed (franchisor guide: submit a test lead and have it confirmed before advertising).
 2. Who pays for the four May/June ads on the studio Page, and whether they count in the A$2,000 ceiling.
-3. New $99 creative (two concepts, studio kit) awaiting approval before it replaces the franchisor stock-image ad on the live campaign; $99 daily budget (A$10 now, A$15 proposed).
-4. $99 offer eligibility (new to Club Pilates?) and any other terms to state in the copy.
 5. Claims to confirm: five-star review count; which instructors are Diploma-trained; 500+ hours for every instructor.
 
 Remove items here as they are decided, and log the decision below.
@@ -39,7 +37,7 @@ Remove items here as they are decided, and log the decision below.
 
 - Spend 1 Aug to 10 Nov: about A$3,833 for 86 Meta form leads (about 26 a month, about A$45 Meta CPL (3,833 / 86 = A$44.57)).
 - Best: "New Leads Ad - Copy", 40 leads at about A$25. Weakest: "ClubPilates_sippy-downs_Image" ads, A$1,330 for 11 leads (A$77 to A$149).
-- Live: "21 Days for $99" (NS_ campaign) at about A$10/day, Ad Library ID 1565354965349906, started 3 Nov 2026.
+- Live: campaign "Sippy Downs | 21 Days for $99 | Evergreen Leads | CAP" (120252612901960389), ad set "Sippy Downs | 25–60 | 10km | Instant Form | $99" (120252612904090389), campaign budget A$15/day from 11 Nov 2026, form Offer [CAP]. Ads: "21 Days $99 | Studio Image | Every Class You Like | CAP" (120252616584200389) and "21 Days $99 | Studio Image | Make It A Habit | CAP" (120252759764670389), both on, SMS verification off, multi-advertiser off, enhancements off. Old stock-template ad "21 Days of Pilates for Just $99 | Evergreen | CAP" (120252616130630389) switched off 11 Nov 2026.
 - Draft, not published: `NS_ClubPilates_sippy-downs_Lead_FreeIntro^S13521` (campaign 120252758276340389), set to A$80/day (about A$2,430/month). **Over the ceiling** (A$80/day is about A$2,430/month). Five ads, Example Lead Form, women suggestion 30 to 65, 11 postcodes. Ad copy on two ads uses award wording that implies a sole win: fix before launch.
 - 11 older unpublished drafts (likely made in ChatGPT). Don't publish.
 - Ad Library shows 4 more active ads on the studio Page (displayed starts 22 May to 4 Jun 2026: "FREE Reformer Pilates passes" and "Over 50's Reformer Pilates Offer"). They are not in Nichola's known campaigns. **Unverified which ad account pays for them.** If they spend inside the monthly cap, the cap arithmetic changes. Resolve before adding budget.
@@ -63,3 +61,4 @@ Remove items here as they are decided, and log the decision below.
 - 2026-11-11: Proposed allocation (awaiting yes): free intro A$45/day + 4-for-$40 A$15/day = A$60/day (about A$1,860 in a 31-day month), with the $99 campaign paused when the pack starts.
 - 2026-11-11: Franchisor connector guide: the CAP app routes any lead form with tracking parameter use_connector_app=true (lowercase, underscores) once the Page is authorised; extra parameters such as fb_campaign or clubready_note pass through to ClubReady (fb_campaign overrides clubready_note). Use fb_campaign=<concept name> to see which ad a lead came from in ClubReady.
 - 2026-11-11 (later): 4-for-$40 dropped (Nichola). The live "21 days unlimited for $99" campaign stays as the paid offer; its creative is to be refreshed (current ad uses a franchisor stock template with a model, not studio photos). No paid-pack test for now.
+- 2026-11-11: Nichola approved the new $99 creative and copy (no "new to Club Pilates" eligibility line; she handles any members who enquire), the $99 budget at A$15/day, and pausing the stock-image ad. Done the same day. CTA is "Get offer" (lead form CTAs don't include Sign up).
