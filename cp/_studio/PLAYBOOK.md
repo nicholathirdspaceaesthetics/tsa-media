@@ -62,7 +62,29 @@ We are not just another reformer studio. Club Pilates Sippy Downs is a **fully e
 - Grip socks are required in every class.
 - Toe alignment (Nichola): your toes tell a story; Restore helps release tight feet, and toe grip socks give each toe space to spread and align. The studio sells socks at the front desk.
 - Equipment in our studio: reformers, Wunda chairs, springboards (confirmed by Nichola), plus the brand book's list of small equipment (Pilates ball, sitting box, mat, foam roller). Don't mention a piece of equipment the photos don't show unless Nichola confirms we have it.
-- Club Pilates Sippy Downs: AUSactive 2025 Pilates Business of the Year.
+- Club Pilates Sippy Downs: joint winner, 2025 AUSactive Pilates Business of the Year (shared with Inna Essence). Always "joint winner"; never "Studio of the Year" or a sole win.
+
+## Teacher Training, January 2027 (added 11 Nov 2026, runs until the course starts)
+
+Nichola wants, every week from the week of 16 Nov 2026 to the week of 11 Jan 2027:
+- **Two extra feed posts** about Teacher Training, on top of the usual five: **Tuesday 12:00pm** and **Thursday 12:00pm**. Educational first (explain the training), with the call to action on every one: the January 2027 start.
+- **One Teacher Training story** a week: **Wednesday 8:00pm**, as a fourth story that day (format: `split`, photo at the bottom, eyebrow "Teacher Training", pill "Starts January 2027"). Log it in stories-log.json like the others. It follows the same approval rule as the daily stories.
+
+Facts we can use (from the studio's own announcement email of 15 Sep 2026, the Education Marketing Timeline & Guide, and lp.clubpilates.com.au/teacher-training, checked 11 Nov 2026):
+- January 2027 Pilates Teacher Training at Club Pilates Sippy Downs, three pathways:
+  - Mat + Anatomy, $1,500: 15 to 16 January 2027.
+  - Reformer + Special Populations, $3,000: 17, 29, 30 and 31 January 2027 (the guide and the national page also list 1 February: say "17 January to 1 February" only once Nichola confirms; until then use "starts January 2027" and the Mat dates).
+  - Combined (both), $4,500.
+- In-studio hours at Club Pilates Sippy Downs: observe, practise and teach in a working studio. Blended learning: online study plus in-person training days and practice.
+- Part of the Club Pilates comprehensive teacher training pathway (national page: 500-hour full program, globally recognised qualification). Only the Mat, Reformer, Anatomy and Special Populations modules run locally in January: never imply the full program runs here in January.
+- Master Trainer: Simone (team guide: Diploma-qualified since 2016, years of Sunshine Coast teaching, joined Club Pilates in 2025 and became a Master Trainer). First name only.
+- Scholarships: two Teacher Training scholarships, 50% off the course cost. Eligibility, how people are chosen, deadline and other terms are NOT confirmed: say "two scholarships, 50% off your course cost, ask us how to be considered". Never "first two", never a deadline.
+- Taster and information sessions (free/paid not confirmed, so don't say free): Sunday 6 December 10:30am, and Wednesday 6 January 7:30pm, at the studio.
+- CTA (every Teacher Training post and story): "Starts January 2027. Send us a DM or find Teacher Training in our link in bio." (The bio link goes to Linktree, which has the Teacher Training link.)
+
+Topic rotation (never the same topic twice in one week, and don't repeat a topic within three weeks): who Teacher Training suits ("Could this be you?"); what actually happens in training (blended learning, studio days); the three pathways compared, with prices; Mat or Reformer first?; meet the Master Trainer; a day in the studio as a trainee; the scholarship; the taster session (only in the two weeks before a session date); common questions (balancing training with work, experience needed: answer only with confirmed facts, otherwise invite a DM).
+
+Rules: no income, job or employment promises ("career" is fine only as "teaching Pilates could become part of your work"); no "guaranteed job"; no urgency or "spots filling" unless Nichola supplies real numbers; prices exactly as above. Photos: instructor and teaching shots from the library (1, 14, 26, 28, 97, 161), no member faces as "trainees". Simone also posts Teacher Training content on her own Instagram with Club Pilates Sippy as collaborator: keep ours educational and studio-voiced, and avoid a topic she posted in the same week if the approvals page notes it.
 
 ## Compliance and voice
 
