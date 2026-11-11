@@ -1,0 +1,15 @@
+[
+ {"id":"fi-a1-feed","slides":[{"kind":"photo","img":"26","pos":"50% 40%","eyebrow":"New to Club Pilates","h":"Never been on a reformer? <span class='lt'>Your first 30 minutes are with an instructor.</span>","hs":76,"pill":"Free 30-minute intro class"}]},
+ {"id":"fi-a1-story","story":true,"slides":[{"kind":"split","img":"26","photo":"bottom","pos":"50% 40%","frac":0.5,"panel":"ltan","pt":300,"eyebrow":"New to Club Pilates","h":"Never been on a reformer? <span class='lt'>Your first 30 minutes are with an instructor.</span>","hs":76,"pill":"Free 30-minute intro class","nofoot":true}]},
+ {"id":"fi-a2-feed","slides":[{"kind":"photo","img":"28","pos":"50% 55%","eyebrow":"Live coaching","h":"A real instructor in the room. <span class='lt'>Every class.</span>","hs":84,"pill":"Free 30-minute intro class"}]},
+ {"id":"fi-a2-story","story":true,"slides":[{"kind":"split","img":"28","photo":"bottom","pos":"50% 55%","frac":0.5,"panel":"blue","pt":300,"eyebrow":"Live coaching","h":"A real instructor in the room. <span class='lt'>Every class.</span>","hs":84,"pill":"Free 30-minute intro class","nofoot":true}]},
+ {"id":"fi-a3-feed","slides":[{"kind":"split","img":"75","pos":"50% 35%","frac":0.58,"panel":"ltan","eyebrow":"Level 1 Foundations","h":"Built for new starters. <span class='lt'>Any age, any fitness level.</span>","hs":70,"pill":"Free 30-minute intro class","pt":56}]},
+ {"id":"fi-a3-story","story":true,"slides":[{"kind":"split","img":"75","photo":"bottom","pos":"50% 35%","frac":0.5,"panel":"ltan","pt":300,"eyebrow":"Level 1 Foundations","h":"Built for new starters. <span class='lt'>Any age, any fitness level.</span>","hs":76,"pill":"Free 30-minute intro class","nofoot":true}]},
+ {"id":"fi-a4-carousel","slides":[
+   {"kind":"photo","img":"6","pos":"50% 50%","eyebrow":"More than a reformer","h":"Reformer.","hs":110},
+   {"kind":"photo","img":"123","pos":"50% 40%","eyebrow":"More than a reformer","h":"Wunda chair.","hs":110},
+   {"kind":"photo","img":"186","pos":"50% 40%","eyebrow":"More than a reformer","h":"Springboard. <span class='lt'>Same class.</span>","hs":100,"pill":"Free 30-minute intro class"}]},
+ {"id":"fi-a4-story","story":true,"slides":[{"kind":"split","img":"165","photo":"bottom","pos":"50% 40%","frac":0.5,"panel":"blue","pt":300,"eyebrow":"More than a reformer","h":"Reformer. Wunda chair. <span class='lt'>Springboard. Same class.</span>","hs":76,"pill":"Free 30-minute intro class","nofoot":true}]},
+ {"id":"pk-b1-feed","slides":[{"kind":"split","img":"97","pos":"50% 30%","frac":0.56,"panel":"blue","eyebrow":"New to Club Pilates","h":"4 classes. <span class='lt'>$40.</span>","hs":110,"body":["Find your level, with live coaching in every class."],"pt":56}]},
+ {"id":"pk-b1-story","story":true,"slides":[{"kind":"split","img":"97","photo":"bottom","pos":"50% 30%","frac":0.5,"panel":"blue","pt":300,"eyebrow":"New to Club Pilates","h":"4 classes. <span class='lt'>$40.</span>","hs":120,"body":["Find your level, with live coaching in every class."],"nofoot":true}]}
+]

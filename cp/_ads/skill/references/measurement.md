@@ -72,10 +72,10 @@ Before any test write: hypothesis, primary outcome, the improvement that would m
 ## Budget arithmetic
 
 - Monthly spend = daily budget x days remaining. Meta can spend more than the daily budget on some days (Meta help has stated up to 75% over, balanced across the week; check the current rule), so daily budgets are not hard caps. Watch month-to-date.
-- At the A$1,500 ceiling, divide by the actual days in the month: A$50/day for a 30-day month, A$48.39/day for a 31-day month (A$48 is the safe round figure), A$53.57/day for February. Count today when working out days left.
+- Divide the ceiling by the actual days in the month (A$2,000: A$66.67/day for 30 days, A$64.52 for 31, A$71.43 for February), then keep a buffer. Count today when working out days left.
 - Keep a buffer (about 5 to 10% under the ceiling) because estimated and unexplained spend exists. For a hard cap, propose an account spending limit or campaign lifetime budgets (a settings change: needs Nichola's yes).
 - Quote expected leads for the budget actually allocated to a campaign, as a range from the account average CPL (base case) to the best single ad (optimistic). One ad's CPL is not a planning rate.
-- Leads possible at a given CPL = budget / CPL. A$1,500 at A$25 = 60 leads; at A$15 = 100; at A$11 = about 136.
+- Leads possible at a given CPL = budget / CPL. A$2,000 at A$45 = about 44 leads; at A$25 = 80; at A$20 = 100; at A$14 = about 140.
 
 ## Measuring by ad
 

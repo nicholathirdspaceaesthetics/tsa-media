@@ -51,4 +51,5 @@ Everything in the matrix and concept bank in audience-offer-creative.md, the "ga
 - Membership prices: brain file said per month. Studio page says per week with a 3-month minimum. Studio page wins.
 - Reviews: 250+ vs 268+ five-star. Unresolved: check Google before use.
 - Free-intro form: franchisor said Example Lead Form (Individual CAP); Nichola's 11 Nov brief says First Session Free [CAP]. Open decision for Nichola.
-- Budget: A$80/day approved 10 Nov vs A$1,500/month ceiling in the 11 Nov brief. Plan at A$1,500 until Nichola confirms otherwise.
+- Budget: A$80/day (10 Nov) and A$1,500/month (11 Nov brief) superseded by Nichola's A$2,000/month maximum (11 Nov).
+- Free-intro form: resolved in favour of the franchisor's Example Lead Form (Individual CAP) (11 Nov).

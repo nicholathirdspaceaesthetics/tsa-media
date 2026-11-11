@@ -43,17 +43,17 @@ Validate against ClubReady lead notes, Tyson's call notes, reviews and member la
 
 ## Offer roles
 
-| | A. Free intro class | B. Three classes for A$25 |
+| | A. Free intro class | B. Paid intro pack (now 4 classes for A$40 in the app) |
 |---|---|---|
 | Job | Remove the first-visit fear and let the instructor create the "this is for me" moment | Let someone feel two or three real classes and the start of a routine before committing |
 | Next step | Lead form, then booking link and Tyson's call, then intro, then membership conversation | Must be a real purchase or a clearly labelled enquiry. Route not built as of 11 Nov 2026 |
 | Measure | Cost per attended intro, intro-to-member rate | Cost per pack purchase, attendance of all 3, pack-to-member rate |
 | Risks | Tyre-kickers; no-shows; leads not called fast | Discount-seekers; cannibalising members or the $99 offer; poor history of paid packs |
-| Reason to choose us | Live instructor, 30 minutes built for first-timers | Must be more than price: try levels and formats with live coaching. 3 for $25 is about the same per class as competitors' 6 for $60, so price alone won't win |
+| Reason to choose us | Live instructor, 30 minutes built for first-timers | Must be more than price: try levels and formats with live coaching. 4 for $40 is $10 a class, the same as Station's 6 for $60, so price alone won't win |
 
 Rules: one primary offer and one action per ad. Never send a paid promise into a free-intro form. Never imply the free intro includes a longer programme. Retrieve real terms; never invent expiry, eligibility, minimum commitment or "no obligation".
 
-Default sequencing at A$1,500 a month: run A as the always-on engine. Test B only after its terms and route exist, and test it **instead of** another paid trial (the $99 offer) rather than in addition, so budget stays inside the ceiling and the comparison is clean.
+Default sequencing within the monthly ceiling: run A as the always-on engine. Test B only after its terms and route exist, and test it **instead of** another paid trial (the $99 offer) rather than in addition, so budget stays inside the ceiling and the comparison is clean.
 
 ## Creative development rules
 
