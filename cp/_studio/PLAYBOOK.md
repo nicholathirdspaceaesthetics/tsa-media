@@ -13,7 +13,7 @@ This is a separate brand from Third Space. Never mix the two: different page, ch
 - **Media host**: GitHub repo `nicholathirdspaceaesthetics/tsa-media`, folder `cp/`. Cloudflare publishes it at `https://tsa-media.pages.dev/cp/<path>` about a minute after a push. Only approved post media and stories go here.
 - **Buffer**, organisation "My organization" `6aed18fa9c0c916c702252e4`.
   - Instagram @clubpilatessippy `6af1553662b70b94b0ca57ac`
-  - Facebook Page: not connected yet (Buffer plan is full). When `list_channels` shows a Club Pilates Sippy Downs Facebook Page, use it for every feed post too, with the same caption except the line containing "link in our bio" ends with the intro class booking link below instead.
+  - Facebook Page: Club Pilates Sippy Downs, Buffer channel `6af58fe262b70b94b005cccf` (connected 12 Nov 2026). Every approved **feed post** goes here too, at the same time as Instagram, with `metadata.facebook {type: "post"}`. Same images and caption, except: the line containing "link in our bio" ends with the intro class booking link below instead; on Teacher Training posts the CTA line becomes "Starts January 2027. Send us a message to find out more." **Stories stay Instagram only** (Nichola, 12 Nov 2026).
 - **Free intro class booking link** (supplied by Nichola; use exactly this, with no tracking parameters added): https://lp.clubpilates.com.au/try?location=sippy-downs&offer_id=free-intro-first_timer&clubready_referraltypeid=133922
   - This is the link for the Instagram bio, the Facebook caption swap and any other place a booking link appears. Never use the tracking parameters (`amp_device_id`, `_gl`) from a copied browser link.
 - **Studio page**: https://www.clubpilates.com.au/location/sippy-downs
