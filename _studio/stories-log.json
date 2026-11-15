@@ -138,5 +138,75 @@
   "photo": "clinic-hug",
   "img": "/_blob/5a10dc858de49cd246b8aa236bb29f2f",
   "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s15",
+  "date": "2026-11-24",
+  "label": "Tue 24 Nov",
+  "time": "8:30am",
+  "hook": "A little time, set aside for you.",
+  "photo": "138",
+  "img": "",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s16",
+  "date": "2026-11-25",
+  "label": "Wed 25 Nov",
+  "time": "8:30am",
+  "hook": "Start with a conversation.",
+  "photo": "209",
+  "img": "",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s17",
+  "date": "2026-11-26",
+  "label": "Thu 26 Nov",
+  "time": "8:30am",
+  "hook": "Your questions, always welcome.",
+  "photo": "270",
+  "img": "",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s18",
+  "date": "2026-11-27",
+  "label": "Fri 27 Nov",
+  "time": "8:30am",
+  "hook": "Would you like to know your skin better?",
+  "photo": "102",
+  "img": "",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s19",
+  "date": "2026-11-28",
+  "label": "Sat 28 Nov",
+  "time": "8:30am",
+  "hook": "Come in, sit down, and breathe.",
+  "photo": "124",
+  "img": "",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s20",
+  "date": "2026-11-29",
+  "label": "Sun 29 Nov",
+  "time": "8:30am",
+  "hook": "Every plan starts with listening.",
+  "photo": "196",
+  "img": "",
+  "status": "Scheduled in Buffer"
+ },
+ {
+  "id": "s21",
+  "date": "2026-11-30",
+  "label": "Mon 30 Nov",
+  "time": "8:30am",
+  "hook": "Curious about LED? Come and see.",
+  "photo": "146",
+  "img": "",
+  "status": "Scheduled in Buffer"
  }
 ]
