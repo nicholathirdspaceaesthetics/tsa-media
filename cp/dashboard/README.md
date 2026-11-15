@@ -9,4 +9,4 @@ Rules:
 - Secrets (CR_API_KEY, DASH_PASSCODE, CHAT_SECRET, INTAKE_KEY) live in Cloudflare only, never in this file.
 - Only Nichola deploys to Cloudflare.
 
-Last deployed: 12 Nov 2026 (rebuild: Simone, email intake, timetable save bar, noticeboard, Lead instructor tab, level rules, Education tasks).
+Last deployed: 12 Nov 2026. Pending deploy (16 Nov): to-do list split into columns for Anna, Tyson, Nichola, and Simone and Anyone.

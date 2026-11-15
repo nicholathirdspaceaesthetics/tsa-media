@@ -836,7 +836,7 @@ h1{font-size:20px;font-weight:500;margin:0}h2{font-size:13px;letter-spacing:.06e
 button,select,input,textarea{font:inherit;font-size:14px}button{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:8px 14px;cursor:pointer}
 button.ghost{background:transparent;color:var(--mute);border:1px solid var(--line)}input[type=text],input[type=date],select{padding:8px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
 .todo{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}.todo .body{flex:1;min-width:0}.todo .t{word-break:break-word}.todo.done .t{text-decoration:line-through;color:var(--mute)}
-.todo .meta{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0}.todo textarea{width:100%;margin-top:4px;min-height:34px;resize:vertical;font:inherit;font-size:13px;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.tcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px;margin-top:10px}.tcol{border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:var(--bg);min-width:0}.tcol.mine{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}.tch{display:flex;justify-content:space-between;align-items:baseline;gap:8px;border-bottom:2px solid var(--line);padding-bottom:6px}.tch h3{margin:0;font-size:16px;font-weight:500}.tcol .todo{flex-wrap:wrap}.tcol .todo .body{flex:1 1 200px}.acts{display:grid;gap:6px}.tcol .acts{display:flex;flex-wrap:wrap;gap:6px;width:100%;padding-left:24px}.tcol .acts button{padding:4px 10px;font-size:12px}.tdone summary{cursor:pointer;color:var(--mute);font-size:13px;padding:8px 0}.todo .meta{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0}.todo textarea{width:100%;margin-top:4px;min-height:34px;resize:vertical;font:inherit;font-size:13px;padding:6px 8px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
 .add{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}.add input[type=text]{flex:1;min-width:200px}.add .notesin{flex-basis:100%}.who{display:flex;gap:8px;align-items:center;margin-bottom:10px;font-size:13px;color:var(--mute)}
 .laze{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;margin:6px 0 4px}.laze .k{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}.laze .n{font-size:38px;font-weight:300;line-height:1.15}
 .lk{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line)}.lk a{color:var(--accent);font-weight:500;word-break:break-word}.lk .nt{font-size:12px;color:var(--mute)}.linkadd{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.linkadd input[type=text]{flex:1;min-width:160px}
@@ -1011,9 +1011,7 @@ function todoCard(){
     addMsg='';
     await postTodo({action:'add',text:input.value,owner:owner.value,due:due.value,notes:notesIn.value,shared:share.checked,high:hiIn.checked})};
   input.addEventListener('keydown',e=>{if(e.key==='Enter')add()});
-  const list=$('div',{});
-  const items=D.todos.slice().sort((a,b)=>(a.done-b.done)||(a.done?0:((b.high?1:0)-(a.high?1:0)))||((b.done?b.doneAt-a.doneAt:0)));
-  list.append(...items.map(t=>{
+  const taskEl=t=>{
     const notes=$('textarea',{placeholder:'Add a note (saves when you click away)',maxlength:'1000',rows:'1'});notes.value=t.notes||'';
     const ownSel=$('select',{class:'own pill own o-'+(['Anna','Tyson','Nichola','Simone'].includes(t.owner)?t.owner:'Anyone'),title:'Reassign this task'},['Anna','Tyson','Nichola','Simone','Anyone'].map(o=>$('option',{value:o},'For '+o)));ownSel.value=t.owner;
     ownSel.addEventListener('change',()=>{const to=ownSel.value;if(to===t.owner)return;const h=prompt('Reassign to '+to+'. Add a handover note? (optional)','');if(h===null){ownSel.value=t.owner;return}postTodo({action:'owner',id:t.id,owner:to,handover:h})});
@@ -1026,12 +1024,27 @@ function todoCard(){
           $('span',{class:'pill'},'added '+fmtD(t.created)+(t.createdBy?' by '+t.createdBy:'')),
           t.done?$('span',{class:'pill',style:'color:var(--ok);border-color:var(--ok)'},'completed '+fmtT(t.doneAt)+(t.doneBy?' by '+t.doneBy:'')):null),
         notes),
-      $('div',{style:'display:grid;gap:6px'},t.done?null:$('button',{class:'ghost',style:t.high?'color:var(--bad);border-color:var(--bad)':'',onclick:()=>postTodo({action:'priority',id:t.id})},t.high?'Not urgent':'Urgent'),$('button',{class:'ghost',onclick:()=>postTodo({action:'share',id:t.id})},t.shared?'Unshare':'Share'),$('button',{class:'ghost',onclick:()=>postTodo({action:'delete',id:t.id})},'Remove')))}));
+      $('div',{class:'acts'},t.done?null:$('button',{class:'ghost',style:t.high?'color:var(--bad);border-color:var(--bad)':'',onclick:()=>postTodo({action:'priority',id:t.id})},t.high?'Not urgent':'Urgent'),$('button',{class:'ghost',onclick:()=>postTodo({action:'share',id:t.id})},t.shared?'Unshare':'Share'),$('button',{class:'ghost',onclick:()=>postTodo({action:'delete',id:t.id})},'Remove')))};
+  const tdyC=new Date(Date.now()+10*3600e3).toISOString().slice(0,10);
+  const byDue=(a,b)=>((b.high?1:0)-(a.high?1:0))||(a.due||'9999').localeCompare(b.due||'9999')||(a.created-b.created);
+  const COLS=[['Anna',['Anna']],['Tyson',['Tyson']],['Nichola',['Nichola']],['Simone and Anyone',['Simone','Anyone']]];
+  const known=['Anna','Tyson','Nichola','Simone'];
+  const inCol=(t,ows)=>ows.includes(known.includes(t.owner)?t.owner:'Anyone');
+  const list=$('div',{class:'tcols'},COLS.map(([label,ows])=>{
+    const open=D.todos.filter(t=>!t.done&&inCol(t,ows)).sort(byDue);
+    const done=D.todos.filter(t=>t.done&&inCol(t,ows)).sort((a,b)=>b.doneAt-a.doneAt);
+    const od=open.filter(t=>t.due&&t.due<tdyC).length,hi=open.filter(t=>t.high).length;
+    const mine=ows.includes(getWho());
+    return $('section',{class:'tcol'+(mine?' mine':''),'aria-label':label+' tasks'},
+      $('div',{class:'tch'},$('h3',{},label),$('span',{class:'mute'},open.length+' open'+(od?', '+od+' overdue':'')+(hi?', '+hi+' urgent':''))),
+      open.length?open.map(taskEl):$('div',{class:'mute',style:'padding:10px 0'},'Nothing open.'),
+      done.length?$('details',{class:'tdone'},$('summary',{},'Done ('+done.length+')'),done.slice(0,20).map(taskEl),done.length>20?$('div',{class:'mute'},'Older ones are in History.'):null):null)}));
+  const items=D.todos;
   if(!items.length)list.append($('div',{class:'mute'},'Nothing on the list.'));
   return $('div',{class:'card wide t-tasks'},$('h2',{},'Team to-do list'),
     $('div',{class:'who'},$('span',{},'Who is using this screen?'),me),
     $('div',{class:'add'},input,owner,due,notesIn,hiLbl,shareLbl,$('button',{onclick:add},'Add')),msg,list,
-    $('div',{class:'note'},'Tick the box when a task is done and the date, time and name are recorded. To hand a task to someone else, change the name on it and add a handover note. Urgent tasks sit at the top in red. Removed tasks stay in the history. Changes show for everyone when the page is next opened or refreshed.'));
+    $('div',{class:'note'},'Each person has their own column, with urgent and overdue tasks at the top. Your own column is outlined once you choose your name. Tick the box when a task is done and the date, time and name are recorded. To hand a task to someone else, change the name on it and add a handover note. Urgent tasks sit at the top in red. Removed tasks stay in the history. Changes show for everyone when the page is next opened or refreshed.'));
 }
 
 function lazeCard(){
