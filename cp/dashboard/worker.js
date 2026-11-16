@@ -2322,6 +2322,34 @@ async function handleIntake(request, env) {
   return Response.json({ added, skipped });
 }
 
+
+// ---------- one-off check: what can the ClubReady API key do? (read-only GETs) ----------
+async function handleCrProbe(env) {
+  const S = STORE_ID;
+  const paths = [
+    '/swagger/docs/v1', '/swagger/v1/swagger.json', '/swagger/docs/v2', '/help', '/docs',
+    '/tasks', `/club/${S}/tasks`, `/club/${S}/Tasks`, '/users/tasks', '/sales/tasks',
+    '/leadmanagement/tasks', '/membermanagement/tasks', `/club/${S}/prospects`,
+    '/sms', '/messaging/sms', '/communications', `/club/${S}/communications`,
+  ];
+  const out = [];
+  for (const path of paths) {
+    try {
+      const q = new URLSearchParams({ ApiKey: env.CR_API_KEY, StoreId: String(S) });
+      const r = await fetch(`${CR_BASE}${path}?${q}`, { method: 'GET', headers: { Accept: 'application/json', 'X-Forwarded-For': '127.0.0.1' } });
+      const txt = await r.text();
+      let info = '';
+      try {
+        const j = JSON.parse(txt);
+        if (j && j.paths) info = 'API map: ' + Object.keys(j.paths).join(', ');
+        else info = Array.isArray(j) ? ('list of ' + j.length + ' items; fields: ' + Object.keys(j[0] || {}).join(', ')) : ('fields: ' + Object.keys(j || {}).slice(0, 30).join(', '));
+      } catch (e) { info = /<title>([^<]*)/i.test(txt) ? 'page: ' + txt.match(/<title>([^<]*)/i)[1] : txt.slice(0, 80).replace(/\s+/g, ' '); }
+      out.push({ path, status: r.status, info: info.replace(new RegExp(env.CR_API_KEY, 'g'), '[key]').slice(0, 6000) });
+    } catch (e) { out.push({ path, status: 'error', info: String(e.message || e).slice(0, 120) }); }
+  }
+  return Response.json({ checked: new Date().toISOString(), results: out });
+}
+
 // ---------- routes ----------
 
 export default {
@@ -2347,6 +2375,7 @@ export default {
       const origin = request.headers.get('Origin');
       if (origin && new URL(origin).host !== url.host) return Response.json({ error: 'Blocked' }, { status: 403 });
     }
+    if (url.pathname === '/api/cr-probe') return handleCrProbe(env);
     if (url.pathname === '/instructors' || url.pathname === '/instructors/') {
       return new Response(INSTRUCTOR_HTML, { headers: { 'content-type': 'text/html;charset=utf-8', 'cache-control': 'no-store' } });
     }
