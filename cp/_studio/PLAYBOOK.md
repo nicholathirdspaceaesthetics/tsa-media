@@ -19,6 +19,15 @@ This is a separate brand from Third Space. Never mix the two: different page, ch
 - **Studio page**: https://www.clubpilates.com.au/location/sippy-downs
 - **Governance log**: Notion "My AI Activity" inside "My Control Room", one row per run (Title, Type, Date, Made by "Claude (scheduled)", Details two lines, Review "Logged").
 
+## Studio prices (from ClubReady, confirmed by Nichola 17 Nov 2026)
+
+Use these exactly; never round, estimate or invent a price.
+
+- Memberships (Tier 2): CP1 $34 a week · CP2 $62 a week · Unlimited $74 a week · Annual paid in full $3,224
+- Classes: single class $40 · 5 Class Pack $190 (30 day expiry) · 10 Class Pack $360 (60 day expiry)
+- Private Training (T1): single $100 · 4 pack $380 · 8 pack $720 · 16 pack $1,360 · Intro Pack (3 sessions) $240
+- Semi-Private Training (T2): single $90 · 4 pack $330 · 8 pack $600 · 16 pack $1,080
+
 ## Renderer setup (fresh session)
 
 `cd cp/_studio && npm i @fontsource/jost@5`, then link `node_modules` where render.py expects it (it is in this folder). Download the photo library to `cp/_studio/ph/`. Playwright and ffmpeg are preinstalled. `python3 render.py <spec.json> <outdir> [ids...]` writes `<id>-<n>.jpg`. LOOK at every render before using it.
