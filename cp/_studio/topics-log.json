@@ -52,11 +52,6 @@
    "subject": "posture is not a flaw: hyperlordosis, locked knees, hypermobility; everyone starts Level 1, core first"
   },
   {
-   "id": "cp106-fully-equipped",
-   "date": "2026-11-25",
-   "subject": "fully equipped studio: reformer, Wunda chair, springboard"
-  },
-  {
    "id": "cp105-award",
    "date": "2026-11-27",
    "subject": "AUSactive award"
@@ -75,6 +70,11 @@
    "id": "cpm01-flexible",
    "date": "2026-12-08",
    "subject": "myth: you must be flexible to start"
+  },
+  {
+   "id": "cp106-fully-equipped",
+   "date": "2026-12-10",
+   "subject": "fully equipped studio: reformer, Wunda chair, springboard"
   },
   {
    "id": "cpm-lordosis",
