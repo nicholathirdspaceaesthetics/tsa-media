@@ -27,6 +27,10 @@ Always break an offer price down to its lowest unit as well (Nichola, 17 Nov 202
 
 Group texts (SMS) cost money: send them to all ex-members and to leads added this year only, never to current members. ClubReady handles opt-outs and missing numbers, so texts don't need opt-out wording.
 
+**Sale limits (Nichola, 17 Nov 2026):** one sale purchase per person, members and non-members alike. Say it in the email and caption.
+
+**Text list over 250 (Nichola, 17 Nov 2026):** Anna checks with Nichola before sending any group text to more than 250 people.
+
 **Links (Nichola, 17 Nov 2026):** every link in an email, post or text goes to an Australian site (clubpilates.com.au, lp.clubpilates.com.au or the studio email). DigitalStack templates default their buttons and social icons to the US clubpilates.com: replace every one before scheduling, and check the preview.
 
 **Ex-member emails (Nichola, 17 Nov 2026):** DigitalStack can't separate ex-members from prospects (ex-members mostly sit in "Cooled off Prospects"). Nichola supplies an ex-member list; ex-member-only emails go to it via "Custom email list". Emails meant for everyone still tick all four lists.
