@@ -47,6 +47,11 @@
    "subject": "Teacher Training: pathways and prices"
   },
   {
+   "id": "cpe-posture-life",
+   "date": "2026-11-24",
+   "subject": "posture is not a flaw: hyperlordosis, locked knees, hypermobility; everyone starts Level 1, core first"
+  },
+  {
    "id": "cp106-fully-equipped",
    "date": "2026-11-25",
    "subject": "fully equipped studio: reformer, Wunda chair, springboard"
@@ -105,11 +110,6 @@
    "id": "cpe01-big-toe-reel",
    "date": "2027-02-06",
    "subject": "toes and feet: big-toe coordination (Reel of the same post)"
-  },
-  {
-   "id": "cpe-posture-life",
-   "date": "2027-02-11",
-   "subject": "posture is not a flaw: hyperlordosis, locked knees, hypermobility; everyone starts Level 1, core first"
   }
  ]
 }
