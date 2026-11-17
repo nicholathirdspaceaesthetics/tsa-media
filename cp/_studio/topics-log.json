@@ -37,9 +37,9 @@
    "subject": "quote card: strong and steady"
   },
   {
-   "id": "cp105-award",
+   "id": "cpc-xmas-party",
    "date": "2026-11-22",
-   "subject": "AUSactive award"
+   "subject": "members' Christmas party (Fri 18 Dec, Vine Wine Bar)"
   },
   {
    "id": "cptt02-three-pathways",
@@ -48,23 +48,23 @@
   },
   {
    "id": "cp106-fully-equipped",
-   "date": "2026-11-24",
+   "date": "2026-11-25",
    "subject": "fully equipped studio: reformer, Wunda chair, springboard"
   },
   {
+   "id": "cp105-award",
+   "date": "2026-11-27",
+   "subject": "AUSactive award"
+  },
+  {
    "id": "cpe-ribs",
-   "date": "2026-11-26",
+   "date": "2026-11-29",
    "subject": "rib flare and breathing after pregnancy"
   },
   {
    "id": "cpe06-chair-rise",
-   "date": "2026-11-28",
-   "subject": "chair rises / everyday leg strength"
-  },
-  {
-   "id": "cpm-lordosis",
    "date": "2026-12-03",
-   "subject": "lower back: excessive lumbar lordosis"
+   "subject": "chair rises / everyday leg strength"
   },
   {
    "id": "cpm01-flexible",
@@ -72,24 +72,39 @@
    "subject": "myth: you must be flexible to start"
   },
   {
+   "id": "cpm-lordosis",
+   "date": "2026-12-15",
+   "subject": "lower back: excessive lumbar lordosis"
+  },
+  {
+   "id": "cph-christmas",
+   "date": "2026-12-25",
+   "subject": "Christmas Day greeting"
+  },
+  {
+   "id": "cph-new-year",
+   "date": "2027-01-01",
+   "subject": "New Year's Day greeting"
+  },
+  {
    "id": "cpe-dad-stance",
-   "date": "2026-12-10",
+   "date": "2027-01-07",
    "subject": "standing posture: the dad stance"
   },
   {
    "id": "cpe01-big-toe",
-   "date": "2027-01-12",
+   "date": "2027-01-19",
    "subject": "toes and feet: big-toe coordination"
   },
   {
-   "id": "cpe01-big-toe-reel",
-   "date": "2027-01-16",
-   "subject": "toes and feet: big-toe coordination (Reel of the same post)"
+   "id": "cpm04-weak-core",
+   "date": "2027-01-28",
+   "subject": "myth: back pain means a weak core"
   },
   {
-   "id": "cpm04-weak-core",
-   "date": "2027-01-19",
-   "subject": "myth: back pain means a weak core"
+   "id": "cpe01-big-toe-reel",
+   "date": "2027-02-06",
+   "subject": "toes and feet: big-toe coordination (Reel of the same post)"
   }
  ]
 }
