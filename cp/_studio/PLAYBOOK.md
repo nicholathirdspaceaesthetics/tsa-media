@@ -27,6 +27,10 @@ Always break an offer price down to its lowest unit as well (Nichola, 17 Nov 202
 
 Group texts (SMS) cost money: send them to all ex-members and to leads added this year only, never to current members. ClubReady handles opt-outs and missing numbers, so texts don't need opt-out wording.
 
+**Links (Nichola, 17 Nov 2026):** every link in an email, post or text goes to an Australian site (clubpilates.com.au, lp.clubpilates.com.au or the studio email). DigitalStack templates default their buttons and social icons to the US clubpilates.com: replace every one before scheduling, and check the preview.
+
+**Ex-member emails (Nichola, 17 Nov 2026):** DigitalStack can't separate ex-members from prospects (ex-members mostly sit in "Cooled off Prospects"). Nichola supplies an ex-member list; ex-member-only emails go to it via "Custom email list". Emails meant for everyone still tick all four lists.
+
 - Memberships (Tier 2): CP1 $34 a week · CP2 $62 a week · Unlimited $74 a week · Annual paid in full $3,224
 - Classes: single class $40 · 5 Class Pack $190 (30 day expiry) · 10 Class Pack $360 (60 day expiry)
 - Private Training (T1): single $100 · 4 pack $380 · 8 pack $720 · 16 pack $1,360 · Intro Pack (3 sessions) $240
