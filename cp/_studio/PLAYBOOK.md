@@ -48,6 +48,13 @@ Nichola approved the three story formats on the approvals page; after that, rout
 - Never reuse a hook in `stories-log.json`. Least recently used photo first; never the same photo twice in one day or on consecutive days in the same slot.
 - Only class formats named on the studio's own pages or by Nichola (Reformer Flow, Restore (myofascial release), and the four levels so far). Add to `formats.json` when Nichola confirms more. Never invent a class, time, instructor or price.
 
+## One feed post a day (Nichola, 17 Nov 2026)
+
+- Never more than one feed post or Reel per day across the Club Pilates channels (stories don't count). Before scheduling, list that day's Buffer posts on both channels.
+- Never the same kind of post two days in a row. Kinds: education (movement, myths, equipment, levels), Teacher Training, instructors and team, community and awards, promotions and giveaways, quote cards.
+- Space education out: at least one day between education posts.
+- This replaces the fixed Tuesday and Thursday 12:00pm Teacher Training slots: Teacher Training posts go on a free day that fits these rules.
+
 ## Never repeat a subject (Nichola, 17 Nov 2026)
 
 - Every feed post and Reel has one main subject, recorded in `topics-log.json` (id, date, subject). Add the entry when the post goes on the approvals page.

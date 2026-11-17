@@ -17,19 +17,19 @@
    "subject": "Teacher Training: what happens"
   },
   {
-   "id": "cp102-four-levels",
-   "date": "2026-11-18",
-   "subject": "class levels explained"
-  },
-  {
-   "id": "cptt02-three-pathways",
-   "date": "2026-11-19",
-   "subject": "Teacher Training: pathways and prices"
-  },
-  {
    "id": "cp103-500-hours",
-   "date": "2026-11-20",
+   "date": "2026-11-18",
    "subject": "instructor training (500+ hours)"
+  },
+  {
+   "id": "cpg01-giveaway",
+   "date": "2026-11-19",
+   "subject": "giveaway: Ultimate Wellness Pack with local businesses"
+  },
+  {
+   "id": "cp102-four-levels",
+   "date": "2026-11-20",
+   "subject": "class levels explained"
   },
   {
    "id": "cp104-quote-steady",
@@ -37,24 +37,29 @@
    "subject": "quote card: strong and steady"
   },
   {
-   "id": "cp106-fully-equipped",
-   "date": "2026-11-21",
-   "subject": "fully equipped studio: reformer, Wunda chair, springboard"
-  },
-  {
    "id": "cp105-award",
    "date": "2026-11-22",
    "subject": "AUSactive award"
   },
   {
-   "id": "cpe06-chair-rise",
+   "id": "cptt02-three-pathways",
+   "date": "2026-11-23",
+   "subject": "Teacher Training: pathways and prices"
+  },
+  {
+   "id": "cp106-fully-equipped",
    "date": "2026-11-24",
-   "subject": "chair rises / everyday leg strength"
+   "subject": "fully equipped studio: reformer, Wunda chair, springboard"
   },
   {
    "id": "cpe-ribs",
    "date": "2026-11-26",
    "subject": "rib flare and breathing after pregnancy"
+  },
+  {
+   "id": "cpe06-chair-rise",
+   "date": "2026-11-28",
+   "subject": "chair rises / everyday leg strength"
   },
   {
    "id": "cpm-lordosis",
