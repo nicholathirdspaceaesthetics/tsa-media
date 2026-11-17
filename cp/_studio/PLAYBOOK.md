@@ -23,6 +23,10 @@ This is a separate brand from Third Space. Never mix the two: different page, ch
 
 Use these exactly; never round, estimate or invent a price.
 
+Always break an offer price down to its lowest unit as well (Nichola, 17 Nov 2026): per class for class packs ($95 for 5 is $19 a class), per session for private training ($304 for 4 is $76 a session), per week for memberships paid up front, and lead with the lowest ("from $68 a session").
+
+Group texts (SMS) cost money: send them to all ex-members and to leads added this year only, never to current members. ClubReady handles opt-outs and missing numbers, so texts don't need opt-out wording.
+
 - Memberships (Tier 2): CP1 $34 a week · CP2 $62 a week · Unlimited $74 a week · Annual paid in full $3,224
 - Classes: single class $40 · 5 Class Pack $190 (30 day expiry) · 10 Class Pack $360 (60 day expiry)
 - Private Training (T1): single $100 · 4 pack $380 · 8 pack $720 · 16 pack $1,360 · Intro Pack (3 sessions) $240
