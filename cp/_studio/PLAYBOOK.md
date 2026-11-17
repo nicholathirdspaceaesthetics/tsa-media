@@ -48,6 +48,13 @@ Nichola approved the three story formats on the approvals page; after that, rout
 - Never reuse a hook in `stories-log.json`. Least recently used photo first; never the same photo twice in one day or on consecutive days in the same slot.
 - Only class formats named on the studio's own pages or by Nichola (Reformer Flow, Restore (myofascial release), and the four levels so far). Add to `formats.json` when Nichola confirms more. Never invent a class, time, instructor or price.
 
+## Never repeat a subject (Nichola, 17 Nov 2026)
+
+- Every feed post and Reel has one main subject, recorded in `topics-log.json` (id, date, subject). Add the entry when the post goes on the approvals page.
+- Before drafting anything, read `topics-log.json`. Never draft a post whose subject is already there, even with a new angle, hook or photo. A Reel cut from an approved carousel counts as the same post, not a new subject.
+- Closely related subjects (for example two lower-back posts) need at least two weeks between them; flag any closer pairing to Nichola rather than scheduling it.
+- If a request from Nichola would repeat a subject, say which earlier post it repeats and ask before drafting.
+
 ## Positioning (Nichola's instruction, use it often)
 
 We are not just another reformer studio. Club Pilates Sippy Downs is a **fully equipped Pilates studio**: reformers, **Wunda chairs** and **springboards**, used in our classes. Make that point at least once a week across feed posts and stories (a caption line, a carousel, an equipment story), always with a real studio photo of that equipment in use. Call the chair the "Wunda chair". Never knock other studios by name.

@@ -1,0 +1,90 @@
+{
+ "_note": "One entry per Club Pilates feed post or Reel. 'subject' is the main topic. Never draft a post whose subject is already here (Nichola, 17 Nov 2026). Stories log their hooks in stories-log.json.",
+ "posts": [
+  {
+   "id": "cp101-first-reformer",
+   "date": "2026-11-16",
+   "subject": "first reformer class / intro class"
+  },
+  {
+   "id": "cp107-toes",
+   "date": "2026-11-17",
+   "subject": "toes and feet: toe gripping, toe grip socks"
+  },
+  {
+   "id": "cptt01-what-happens",
+   "date": "2026-11-17",
+   "subject": "Teacher Training: what happens"
+  },
+  {
+   "id": "cp102-four-levels",
+   "date": "2026-11-18",
+   "subject": "class levels explained"
+  },
+  {
+   "id": "cptt02-three-pathways",
+   "date": "2026-11-19",
+   "subject": "Teacher Training: pathways and prices"
+  },
+  {
+   "id": "cp103-500-hours",
+   "date": "2026-11-20",
+   "subject": "instructor training (500+ hours)"
+  },
+  {
+   "id": "cp104-quote-steady",
+   "date": "2026-11-21",
+   "subject": "quote card: strong and steady"
+  },
+  {
+   "id": "cp106-fully-equipped",
+   "date": "2026-11-21",
+   "subject": "fully equipped studio: reformer, Wunda chair, springboard"
+  },
+  {
+   "id": "cp105-award",
+   "date": "2026-11-22",
+   "subject": "AUSactive award"
+  },
+  {
+   "id": "cpe01-big-toe",
+   "date": "2026-11-24",
+   "subject": "toes and feet: big-toe coordination"
+  },
+  {
+   "id": "cpe-ribs",
+   "date": "2026-11-26",
+   "subject": "rib flare and breathing after pregnancy"
+  },
+  {
+   "id": "cpe01-big-toe-reel",
+   "date": "2026-11-28",
+   "subject": "toes and feet: big-toe coordination (Reel of the same post)"
+  },
+  {
+   "id": "cpe06-chair-rise",
+   "date": "2026-12-01",
+   "subject": "chair rises / everyday leg strength"
+  },
+  {
+   "id": "cpm-lordosis",
+   "date": "2026-12-03",
+   "subject": "lower back: excessive lumbar lordosis"
+  },
+  {
+   "id": "cpm01-flexible",
+   "date": "2026-12-08",
+   "subject": "myth: you must be flexible to start"
+  },
+  {
+   "id": "cpe-dad-stance",
+   "date": "2026-12-10",
+   "subject": "standing posture: the dad stance"
+  },
+  {
+   "id": "cpm04-weak-core",
+   "date": "2026-12-15",
+   "subject": "myth: back pain means a weak core"
+  }
+ ]
+}
