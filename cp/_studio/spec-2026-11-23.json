@@ -1,0 +1,522 @@
+[
+ {
+  "id": "cptt03",
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "28",
+    "pos": "50% 40%",
+    "eyebrow": "Teacher Training · January 2027",
+    "h": "Teacher Training: <span class='lt'>your questions, answered.</span>",
+    "hs": 92,
+    "body": [
+     "Swipe for the answers."
+    ]
+   },
+   {
+    "kind": "text-ltan",
+    "eyebrow": "Can I fit it around work?",
+    "h": "Online study, <span class='lt'>plus studio days.</span>",
+    "hs": 84,
+    "body": [
+     "Teacher Training uses blended learning: online study, plus in-person training days and practice here at the studio.",
+     "Mat + Anatomy runs 15 to 16 January 2027. Reformer + Special Populations also starts in January."
+    ]
+   },
+   {
+    "kind": "text-light",
+    "eyebrow": "Who leads it?",
+    "h": "Our Master Trainer, <span class='lt'>Simone.</span>",
+    "hs": 84,
+    "body": [
+     "Diploma-qualified since 2016, with years of teaching on the Sunshine Coast. She joined Club Pilates in 2025 and became a Master Trainer."
+    ]
+   },
+   {
+    "kind": "split",
+    "img": "26",
+    "pos": "50% 35%",
+    "frac": 0.54,
+    "panel": "ltan",
+    "eyebrow": "Is it the whole qualification?",
+    "h": "Part of a <span class='lt'>bigger pathway.</span>",
+    "hs": 72,
+    "body": [
+     "January's Mat, Reformer, Anatomy and Special Populations modules are part of the Club Pilates teacher training pathway: 500 hours in full."
+    ],
+    "nologo": true,
+    "pt": 56,
+    "bs": 31
+   },
+   {
+    "kind": "text-blue",
+    "eyebrow": "Teacher Training",
+    "h": "Starts <span class='lt'>January 2027.</span>",
+    "hs": 96,
+    "body": [
+     "Wondering if you have enough experience? Tell us about your Pilates so far and we'll talk it through."
+    ],
+    "cta": "Send us a DM or find Teacher Training in our link in bio."
+   }
+  ]
+ },
+ {
+  "id": "2026-11-23-am",
+  "story": true,
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "169",
+    "pos": "50% 25%",
+    "textpos": "bottom",
+    "eyebrow": "Curious about Pilates?",
+    "h": "Curious? <span class='lt'>Come and try a class.</span>",
+    "hs": 86,
+    "body": [
+     "Book through the link in bio."
+    ],
+    "pill": "Free intro class",
+    "nofoot": true,
+    "p": 96
+   }
+  ]
+ },
+ {
+  "id": "2026-11-24-am",
+  "story": true,
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "8",
+    "pos": "50% 40%",
+    "textpos": "bottom",
+    "eyebrow": "Not sure where to start?",
+    "h": "Not sure where to start? <span class='lt'>Start here.</span>",
+    "hs": 86,
+    "body": [
+     "Book through the link in bio."
+    ],
+    "pill": "Free intro class",
+    "nofoot": true,
+    "p": 96
+   }
+  ]
+ },
+ {
+  "id": "2026-11-25-am",
+  "story": true,
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "26",
+    "pos": "50% 30%",
+    "textpos": "bottom",
+    "eyebrow": "Your first class",
+    "h": "We'll show you how <span class='lt'>to set up the reformer.</span>",
+    "hs": 86,
+    "body": [
+     "Book through the link in bio."
+    ],
+    "pill": "Free intro class",
+    "nofoot": true,
+    "p": 96
+   }
+  ]
+ },
+ {
+  "id": "2026-11-26-am",
+  "story": true,
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "51",
+    "pos": "50% 40%",
+    "textpos": "bottom",
+    "eyebrow": "Thought it wasn't for you?",
+    "h": "Thought Pilates wasn't for you? <span class='lt'>Try one class.</span>",
+    "hs": 86,
+    "body": [
+     "Book through the link in bio."
+    ],
+    "pill": "Free intro class",
+    "nofoot": true,
+    "p": 96
+   }
+  ]
+ },
+ {
+  "id": "2026-11-27-am",
+  "story": true,
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "209",
+    "pos": "50% 30%",
+    "textpos": "bottom",
+    "eyebrow": "Weekend plans?",
+    "h": "Weekend plans? <span class='lt'>Add a first class.</span>",
+    "hs": 86,
+    "body": [
+     "Book through the link in bio."
+    ],
+    "pill": "Free intro class",
+    "nofoot": true,
+    "p": 96
+   }
+  ]
+ },
+ {
+  "id": "2026-11-28-am",
+  "story": true,
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "123",
+    "pos": "50% 30%",
+    "textpos": "bottom",
+    "eyebrow": "Saturday",
+    "h": "One class. <span class='lt'>See how you feel.</span>",
+    "hs": 86,
+    "body": [
+     "Book through the link in bio."
+    ],
+    "pill": "Free intro class",
+    "nofoot": true,
+    "p": 96
+   }
+  ]
+ },
+ {
+  "id": "2026-11-29-am",
+  "story": true,
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "64",
+    "pos": "50% 40%",
+    "textpos": "bottom",
+    "eyebrow": "For first-timers",
+    "h": "Grip socks and comfy clothes. <span class='lt'>That's all you need.</span>",
+    "hs": 86,
+    "body": [
+     "Book through the link in bio."
+    ],
+    "pill": "Free intro class",
+    "nofoot": true,
+    "p": 96
+   }
+  ]
+ },
+ {
+  "id": "2026-11-23-mid",
+  "story": true,
+  "slides": [
+   {
+    "kind": "text-ltan",
+    "eyebrow": "Meet the equipment",
+    "h": "The Wunda chair. <span class='lt'>Small, and deceptively hard.</span>",
+    "hs": 100,
+    "body": [
+     "A padded box with a spring-loaded pedal. It asks for balance, strength and control, and you'll meet it in our classes."
+    ],
+    "align": "center",
+    "nofoot": true,
+    "mpos": "right:-520px;bottom:-420px",
+    "ms": 1200
+   }
+  ]
+ },
+ {
+  "id": "2026-11-24-mid",
+  "story": true,
+  "slides": [
+   {
+    "kind": "text-blue",
+    "eyebrow": "Studio note",
+    "h": "Your toes do more <span class='lt'>than you think.</span>",
+    "hs": 100,
+    "body": [
+     "Toe grip socks give each toe space to spread and align, and Restore helps release tight feet.",
+     "Ask about toe grip socks at the front desk."
+    ],
+    "align": "center",
+    "nofoot": true,
+    "mpos": "right:-520px;bottom:-420px",
+    "ms": 1200
+   }
+  ]
+ },
+ {
+  "id": "2026-11-25-mid",
+  "story": true,
+  "slides": [
+   {
+    "kind": "text-light",
+    "eyebrow": "How levels work",
+    "h": "Moving up a level? <span class='lt'>Your instructor will say when.</span>",
+    "hs": 100,
+    "body": [
+     "Level 2 Evolution needs Level 1.5 experience and your instructor's go-ahead. Level 2.5 Mastery needs Level 2 experience and the same go-ahead.",
+     "No rush."
+    ],
+    "align": "center",
+    "nofoot": true,
+    "mpos": "right:-520px;bottom:-420px",
+    "ms": 1200
+   }
+  ]
+ },
+ {
+  "id": "2026-11-26-mid",
+  "story": true,
+  "slides": [
+   {
+    "kind": "text-ltan",
+    "eyebrow": "Meet the equipment",
+    "h": "The Pilates ball. <span class='lt'>Small, soft, surprisingly useful.</span>",
+    "hs": 100,
+    "body": [
+     "You'll see it in class on the reformer, the Wunda chair and the springboard, for support, release and a little extra challenge."
+    ],
+    "align": "center",
+    "nofoot": true,
+    "mpos": "right:-520px;bottom:-420px",
+    "ms": 1200
+   }
+  ]
+ },
+ {
+  "id": "2026-11-27-mid",
+  "story": true,
+  "slides": [
+   {
+    "kind": "text-blue",
+    "eyebrow": "First class tip",
+    "h": "Tell us it's your first class. <span class='lt'>We'll take it from there.</span>",
+    "hs": 100,
+    "body": [
+     "Let the front desk and your instructor know when you arrive, and they'll help you set up and settle in."
+    ],
+    "align": "center",
+    "nofoot": true,
+    "mpos": "right:-520px;bottom:-420px",
+    "ms": 1200
+   }
+  ]
+ },
+ {
+  "id": "2026-11-28-mid",
+  "story": true,
+  "slides": [
+   {
+    "kind": "text-light",
+    "eyebrow": "Fully equipped",
+    "h": "Reformer, Wunda chair, springboard. <span class='lt'>All three, all here.</span>",
+    "hs": 100,
+    "body": [
+     "We're a fully equipped Pilates studio, and our classes use all of them."
+    ],
+    "align": "center",
+    "nofoot": true,
+    "mpos": "right:-520px;bottom:-420px",
+    "ms": 1200
+   }
+  ]
+ },
+ {
+  "id": "2026-11-29-mid",
+  "story": true,
+  "slides": [
+   {
+    "kind": "text-ltan",
+    "eyebrow": "What to wear",
+    "h": "Clothes you can move in. <span class='lt'>Socks with grip.</span>",
+    "hs": 100,
+    "body": [
+     "Comfortable activewear works well. Grip socks are required in every class, and we sell them at the front desk."
+    ],
+    "align": "center",
+    "nofoot": true,
+    "mpos": "right:-520px;bottom:-420px",
+    "ms": 1200
+   }
+  ]
+ },
+ {
+  "id": "2026-11-23-pm",
+  "story": true,
+  "slides": [
+   {
+    "kind": "split",
+    "photo": "bottom",
+    "img": "14",
+    "pos": "50% 50%",
+    "frac": 0.48,
+    "panel": "ltan",
+    "eyebrow": "Class spotlight",
+    "h": "Level 1 Foundations: <span class='lt'>start here, stay as long as you like.</span>",
+    "hs": 92,
+    "body": [
+     "Where everyone starts: the equipment, the basics and plenty of options to modify. Made for first-timers."
+    ],
+    "cta": "Find it on the schedule, link in bio.",
+    "nofoot": true
+   }
+  ]
+ },
+ {
+  "id": "2026-11-24-pm",
+  "story": true,
+  "slides": [
+   {
+    "kind": "split",
+    "photo": "bottom",
+    "img": "50",
+    "pos": "50% 40%",
+    "frac": 0.48,
+    "panel": "ltan",
+    "eyebrow": "Class spotlight",
+    "h": "Restore: <span class='lt'>for tight, tired muscles.</span>",
+    "hs": 92,
+    "body": [
+     "Myofascial release on the equipment. A slower class that works into tight, tired muscles, then moves you through them. Suits anyone who wants a slower session in their week."
+    ],
+    "cta": "Find it on the schedule, link in bio.",
+    "nofoot": true
+   }
+  ]
+ },
+ {
+  "id": "2026-11-25-pm",
+  "story": true,
+  "slides": [
+   {
+    "kind": "split",
+    "photo": "bottom",
+    "img": "6",
+    "pos": "50% 50%",
+    "frac": 0.48,
+    "panel": "ltan",
+    "eyebrow": "Class spotlight",
+    "h": "Reformer Flow: <span class='lt'>keep it moving.</span>",
+    "hs": 92,
+    "body": [
+     "Reformer-based Pilates with a contemporary flow. Good if you like a class that keeps moving from one exercise to the next."
+    ],
+    "cta": "Find it on the schedule, link in bio.",
+    "nofoot": true
+   }
+  ]
+ },
+ {
+  "id": "2026-11-26-pm",
+  "story": true,
+  "slides": [
+   {
+    "kind": "split",
+    "photo": "bottom",
+    "img": "41",
+    "pos": "50% 45%",
+    "frac": 0.48,
+    "panel": "ltan",
+    "eyebrow": "Class spotlight",
+    "h": "Level 1.5 Progression: <span class='lt'>the next step.</span>",
+    "hs": 92,
+    "body": [
+     "More complex movement and stability work. For when the Level 1 basics feel familiar."
+    ],
+    "cta": "Find it on the schedule, link in bio.",
+    "nofoot": true
+   }
+  ]
+ },
+ {
+  "id": "2026-11-27-pm",
+  "story": true,
+  "slides": [
+   {
+    "kind": "split",
+    "photo": "bottom",
+    "img": "240",
+    "pos": "50% 40%",
+    "frac": 0.48,
+    "panel": "ltan",
+    "eyebrow": "Class spotlight",
+    "h": "The springboard: <span class='lt'>Pilates, standing up.</span>",
+    "hs": 92,
+    "body": [
+     "Springs on the wall for standing, arm and leg work against resistance. For anyone who wants more than lying down."
+    ],
+    "cta": "Find it in our classes, link in bio.",
+    "nofoot": true
+   }
+  ]
+ },
+ {
+  "id": "2026-11-28-pm",
+  "story": true,
+  "slides": [
+   {
+    "kind": "split",
+    "photo": "bottom",
+    "img": "254",
+    "pos": "50% 45%",
+    "frac": 0.48,
+    "panel": "ltan",
+    "eyebrow": "Class spotlight",
+    "h": "Level 2 Evolution: <span class='lt'>ready for more?</span>",
+    "hs": 92,
+    "body": [
+     "Faster and more challenging. For members with Level 1.5 experience and their instructor's go-ahead."
+    ],
+    "cta": "Find it on the schedule, link in bio.",
+    "nofoot": true
+   }
+  ]
+ },
+ {
+  "id": "2026-11-29-pm",
+  "story": true,
+  "slides": [
+   {
+    "kind": "split",
+    "photo": "bottom",
+    "img": "171",
+    "pos": "50% 40%",
+    "frac": 0.48,
+    "panel": "ltan",
+    "eyebrow": "Class spotlight",
+    "h": "Level 2.5 Mastery: <span class='lt'>precision, all the way.</span>",
+    "hs": 92,
+    "body": [
+     "Our most advanced level. For members with Level 2 experience and their instructor's go-ahead."
+    ],
+    "cta": "Find it on the schedule, link in bio.",
+    "nofoot": true
+   }
+  ]
+ },
+ {
+  "id": "2026-11-25-tt",
+  "story": true,
+  "slides": [
+   {
+    "kind": "split",
+    "photo": "bottom",
+    "img": "161",
+    "pos": "50% 35%",
+    "frac": 0.45,
+    "panel": "blue",
+    "eyebrow": "Teacher Training",
+    "h": "Curious? <span class='lt'>Come to a taster session.</span>",
+    "hs": 92,
+    "body": [
+     "Sunday 6 December, 10:30am, at the studio.",
+     "Send us a DM or find Teacher Training in our link in bio."
+    ],
+    "pill": "Starts January 2027",
+    "nofoot": true
+   }
+  ]
+ }
+]
