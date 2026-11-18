@@ -70,3 +70,11 @@ Setup in a fresh session: `npm i @fontsource/poppins@5.1.0` in `_studio/`, downl
 - Never delete or edit existing Buffer posts. Never send email or messages to anyone other than Nichola.
 - Do not invent prices, dates, availability, offers or claims. If something is missing, skip that item and report it.
 - Use only: Buffer, Artifact / ArtifactData, the tsa-media repo, Notion (log row only), and a short summary to Nichola.
+
+## Spot stories (appointments that have just opened up)
+
+When the team logs "Spot opened up" on the Third Space dashboard (https://third-space.nichola-b57.workers.dev, Actions tab), the hourly "Third Space spot stories" scheduled task posts one Instagram story for it. These are pre-approved booking stories (Nichola, 18 Nov 2026) and go out without review.
+- Make the image with `python3 _studio/spot_story.py '<json>'` from the repo root (see the script's docstring). It picks the least recently used library photo, renders 1080x1920 with `render.py` kind `story` (`items_html` replaces the usual three appointment types), saves `stories/spot-<id>.jpg` and appends to `_studio/spots-log.json`. Photos must be in `ph/<n>.jpg` first (same setup as Daily stories).
+- Services and wording are fixed in the script: LED session, skin needling (with "Subject to consultation and suitability."), complimentary skin consultation, complimentary aesthetic consultation with Nurse Fernanda, Glassifier (with the suitability line). Aesthetic treatments are never named. No claims, no urgency words, never "free".
+- Post to Instagram @thirdspacesippy only, `metadata.instagram {type: "story", shouldShareToFeed: false}`, no link field, alt text = the story's words, posted straight away (mode shareNow).
+- Skip a spot whose appointment time has already passed, and tell the dashboard it expired.
