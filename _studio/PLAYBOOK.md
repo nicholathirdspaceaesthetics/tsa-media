@@ -59,6 +59,7 @@ Setup in a fresh session: `npm i @fontsource/poppins@5.1.0` in `_studio/`, downl
 ## Compliance and voice (every piece, every time)
 
 - No outcome promises ("look younger", "transform", "flawless"), no before/afters, no testimonials, no urgency or countdowns, no prescription-medicine or injectable names or hints (no "injectables", "filler", "anti-wrinkle", "volume loss"). Advanced treatments are only "advanced skin treatments".
+- Exception (Nichola, 19 Nov 2026): the Black Friday gift pack posts (ids starting `bf`, media in `bf26/`) use a bright pink design and factual urgency (20 packs, ends Friday 27 November). Schedule them as approved; the no-urgency and brand-palette rules still apply to everything else.
 - Never the word "free" in a call to action. Invitations: "Curious...?", "Have questions...?", "Would you like to...?".
 - Skin needling always carries "subject to consultation and suitability".
 - The brand name is never typeset in a design; use the logo files.
