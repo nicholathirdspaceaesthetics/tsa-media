@@ -25,3 +25,6 @@
 2. Sample set: feed single, carousel, quote card, 3 story types (intro class / class-type education / community).
 3. Club Pilates approvals page (artifact) + link from TSA page.
 4. CP playbook + extend daily publisher + weekly stories task (3 per day).
+
+## Key dates (19 Nov 2026)
+See `_studio/key-dates.json` (brand `cp`) and the PLAYBOOK "Key dates" section. Nurses Day offer: 3 classes for nurses, 12 to 26 May 2027; needs a $0 ClubReady offer and Australian booking link set up first.

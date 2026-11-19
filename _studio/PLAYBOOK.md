@@ -80,3 +80,10 @@ When the team logs "Spot opened up" on the Third Space dashboard (https://third-
 - Post to Instagram @thirdspacesippy only, `metadata.instagram {type: "story", shouldShareToFeed: false}`, no link field, alt text = the story's words, posted straight away (mode shareNow).
 - Skip a spot whose appointment time has already passed, and tell the dashboard it expired.
 - When the team ticks "Taken" on a posted spot, the same task posts a follow-up story: run the script with `"kind": "taken"` (makes `stories/spot-<id>-taken.jpg`: "Update. That spot has been booked." with the service, day and time, "Thank you. New openings go up here." and the link-in-bio line). Use a different photo from the spot's original story. Post it even if the appointment time has passed, but not more than a day after it.
+
+## Key dates (Nichola, 19 Nov 2026)
+
+`_studio/key-dates.json` lists public holidays, awareness days and our own dates for Third Space (`tsa`), Club Pilates (`cp`) and Gymtechs (`gt`), each with an action (Post, Offer, Story, Hours, Quiet, Plan, Optional) and an angle. The same list shows at the top of each approvals page ("Dates worth mentioning", from `key-dates.js` in each artifact; regenerate with `python3 _studio/keydates.py <dir>` and republish that file only).
+- Every weekly content run checks the next 21 days. Each Post or Offer date for that business gets a draft on the approvals page for that week, built to the usual rules. Hours dates get an hours story the day before (times only once Nichola has confirmed them). Quiet dates (Anzac Day, Remembrance Day): a plain, respectful acknowledgement, with nothing that sells scheduled on the day.
+- Dates marked `tbc` must be confirmed before anything is drafted for them; say so in the summary.
+- The International Nurses Day offers (12 May 2027) are in `offers` in the same file. Draft them by 21 April 2027.

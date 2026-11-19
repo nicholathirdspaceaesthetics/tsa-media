@@ -1,0 +1,981 @@
+{
+ "updated": "2026-11-19",
+ "entries": [
+  {
+   "start": "2026-12-01",
+   "end": "2026-12-22",
+   "name": "Christmas gift season",
+   "kind": "Retail",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Post",
+     "Gift vouchers at any value. Lead with the person who never books anything for themselves. Run 1 to 22 Dec, one post a week, plus stories."
+    ],
+    "cp": [
+     "Post",
+     "Class packs and gift cards as presents. Keep it to one gift post a week through December."
+    ],
+    "gt": [
+     "Post",
+     "Book servicing before the January rush. Gyms get their busiest weeks in January, so December is the time to fix the out of order machines."
+    ]
+   }
+  },
+  {
+   "start": "2026-12-03",
+   "end": null,
+   "name": "International Day of People with Disability",
+   "kind": "Awareness",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Optional",
+     "Only if you have a genuine story about adapting classes. Otherwise skip."
+    ]
+   }
+  },
+  {
+   "start": "2026-12-09",
+   "end": null,
+   "name": "Joseph Pilates' birthday",
+   "kind": "Industry",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Post",
+     "Born 9 December 1883. A short history post: the springboard and Wunda chair are his inventions, which is why a fully equipped studio matters."
+    ]
+   }
+  },
+  {
+   "start": "2026-12-12",
+   "end": "2027-01-26",
+   "name": "Qld school holidays",
+   "kind": "School",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Plan",
+     "Parents' timetable changes. Promote the classes that suit school holiday mornings."
+    ],
+    "gt": [
+     "Plan",
+     "Schools are empty: the best window to service school gyms. Contact school clients before the break."
+    ]
+   }
+  },
+  {
+   "start": "2026-12-24",
+   "end": null,
+   "name": "Christmas Eve (part-day holiday from 6pm)",
+   "kind": "Public holiday",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "cp": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "gt": [
+     "Hours",
+     "Christmas shutdown and emergency contact details, posted by 18 Dec."
+    ]
+   }
+  },
+  {
+   "start": "2026-12-25",
+   "end": null,
+   "name": "Christmas Day",
+   "kind": "Public holiday",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Post",
+     "A warm thank you to clients and members, signed Nichola and Fernanda. No offer."
+    ],
+    "cp": [
+     "Post",
+     "Thank you to members and the instructor team. No offer."
+    ],
+    "gt": [
+     "Post",
+     "Thank you to clients, and to the family behind the business."
+    ]
+   }
+  },
+  {
+   "start": "2026-12-26",
+   "end": null,
+   "name": "Boxing Day (extra public holiday Mon 28 Dec)",
+   "kind": "Public holiday",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "cp": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "gt": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ]
+   }
+  },
+  {
+   "start": "2026-12-31",
+   "end": null,
+   "name": "New Year's Eve",
+   "kind": "Celebration",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Story",
+     "Thank you for the first year. Story only."
+    ],
+    "cp": [
+     "Story",
+     "Last class of the year moment, story only."
+    ]
+   }
+  },
+  {
+   "start": "2027-01-01",
+   "end": null,
+   "name": "New Year's Day",
+   "kind": "Public holiday",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Post",
+     "Not a resolutions post. A calm, considered start: understand your skin before you change it."
+    ],
+    "cp": [
+     "Post",
+     "The biggest intake week of the year. Intro class push from 1 Jan; Level 1 is where everyone starts."
+    ],
+    "gt": [
+     "Post",
+     "New year, busy floors. Report faults early so a machine is not out of action in the busiest month."
+    ]
+   }
+  },
+  {
+   "start": "2027-01-04",
+   "end": null,
+   "name": "Back to routine week",
+   "kind": "Seasonal",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Offer",
+     "First full working week back. Strongest week for new members: intro class ads and stories daily."
+    ],
+    "tsa": [
+     "Post",
+     "Back to routine: LED as the hour that is just for you."
+    ]
+   }
+  },
+  {
+   "start": "2027-01-25",
+   "end": null,
+   "name": "Synergie practitioner range launch",
+   "kind": "Our date",
+   "tbc": true,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Plan",
+     "End of January (confirm the exact date). Teaser posts from mid-January."
+    ]
+   }
+  },
+  {
+   "start": "2027-01-26",
+   "end": null,
+   "name": "Australia Day",
+   "kind": "Public holiday",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Hours",
+     "Hours story only. Opinions on the day are divided, so a celebratory post can draw criticism either way."
+    ],
+    "cp": [
+     "Hours",
+     "Hours story only, and check whether national Club Pilates has set a position."
+    ],
+    "gt": [
+     "Hours",
+     "Hours story only."
+    ]
+   }
+  },
+  {
+   "start": "2027-02-01",
+   "end": null,
+   "name": "Girls Night Out But In",
+   "kind": "Our date",
+   "tbc": true,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Plan",
+     "February event (confirm the date). Announce 3 weeks before."
+    ]
+   }
+  },
+  {
+   "start": "2027-02-14",
+   "end": null,
+   "name": "Valentine's Day",
+   "kind": "Celebration",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Post",
+     "Self-care rather than romance: the gift voucher for someone you love, or for you."
+    ],
+    "cp": [
+     "Post",
+     "Bring your person: a partner or friend class post. Galentine's angle works too."
+    ]
+   }
+  },
+  {
+   "start": "2027-03-08",
+   "end": null,
+   "name": "International Women's Day",
+   "kind": "Awareness",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Post",
+     "A women-led clinic for women 35 to 55. Founders' story, not a sale."
+    ],
+    "cp": [
+     "Post",
+     "Strength at every age. Celebrate members, with their consent."
+    ],
+    "gt": [
+     "Optional",
+     "Only with a real story, such as a client or team member. Otherwise skip."
+    ]
+   }
+  },
+  {
+   "start": "2027-03-26",
+   "end": "2027-03-29",
+   "name": "Easter long weekend (Good Friday to Easter Monday)",
+   "kind": "Public holiday",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Hours",
+     "Hours story on Thursday 25 Mar. One gentle Easter post is optional."
+    ],
+    "cp": [
+     "Hours",
+     "Hours and timetable changes, posted by Wed 24 Mar."
+    ],
+    "gt": [
+     "Hours",
+     "Closed days and emergency contact."
+    ]
+   }
+  },
+  {
+   "start": "2027-03-26",
+   "end": "2027-04-11",
+   "name": "Qld school holidays",
+   "kind": "School",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Plan",
+     "Holiday timetable."
+    ],
+    "gt": [
+     "Plan",
+     "School gym servicing window. Book school clients in early March."
+    ]
+   }
+  },
+  {
+   "start": "2027-04-25",
+   "end": null,
+   "name": "Anzac Day (holiday Mon 26 Apr)",
+   "kind": "Public holiday",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Quiet",
+     "Lest we forget. A plain, respectful image. No logo-heavy design, no offer, nothing scheduled on the day that sells."
+    ],
+    "cp": [
+     "Quiet",
+     "Lest we forget. No offers that weekend."
+    ],
+    "gt": [
+     "Quiet",
+     "Lest we forget. No offers that weekend."
+    ]
+   }
+  },
+  {
+   "start": "2027-05-01",
+   "end": null,
+   "name": "International Pilates Day",
+   "kind": "Industry",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Offer",
+     "First Saturday in May. Open studio morning or a bring-a-friend class. Club Pilates runs May as PilatesFest in the US, so check for national material."
+    ]
+   }
+  },
+  {
+   "start": "2027-05-01",
+   "end": null,
+   "name": "Third Space turns one",
+   "kind": "Our date",
+   "tbc": true,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Plan",
+     "The clinic opened in May 2026 (confirm the exact date). A thank-you post and a member event."
+    ]
+   }
+  },
+  {
+   "start": "2027-05-03",
+   "end": null,
+   "name": "Labour Day",
+   "kind": "Public holiday",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "cp": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "gt": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ]
+   }
+  },
+  {
+   "start": "2027-05-09",
+   "end": null,
+   "name": "Mother's Day",
+   "kind": "Celebration",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Offer",
+     "The biggest gifting date of the year for this clinic. Voucher campaign from 25 Apr. Not \"look younger\": time for her."
+    ],
+    "cp": [
+     "Offer",
+     "Gift cards and class packs from late April. A Mother's Day class on the Saturday works well."
+    ],
+    "gt": [
+     "Optional",
+     "Home gym gift angle, only if there is stock or a service offer."
+    ]
+   }
+  },
+  {
+   "start": "2027-05-12",
+   "end": null,
+   "name": "International Nurses Day",
+   "kind": "Awareness",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Offer",
+     "NURSES DAY OFFER: a week of unlimited LED for nurses. Full terms below. A clinic co-founded by a nurse."
+    ],
+    "cp": [
+     "Offer",
+     "NURSES DAY OFFER: 3 classes for nurses. Full terms below."
+    ],
+    "gt": [
+     "Optional",
+     "Thank you to hospital and aged-care gym clients, if any."
+    ]
+   }
+  },
+  {
+   "start": "2027-05-24",
+   "end": "2027-05-30",
+   "name": "Exercise Right Week (ESSA)",
+   "kind": "Awareness",
+   "tbc": true,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Post",
+     "Late May (confirm dates). Education post: the right exercise for the right person."
+    ],
+    "gt": [
+     "Post",
+     "Safe equipment is part of exercising right. Servicing post."
+    ]
+   }
+  },
+  {
+   "start": "2027-06-11",
+   "end": null,
+   "name": "Sunshine Coast Show holiday",
+   "kind": "Public holiday",
+   "tbc": true,
+   "note": "Usually the second Friday in June for the former Maroochy Shire area. Confirm the 2027 date.",
+   "brands": {
+    "tsa": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "cp": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "gt": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ]
+   }
+  },
+  {
+   "start": "2027-06-14",
+   "end": "2027-06-20",
+   "name": "Men's Health Week",
+   "kind": "Awareness",
+   "tbc": true,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Post",
+     "Mid-June (confirm dates). Men on the Reformer: the men's class or a member story."
+    ],
+    "gt": [
+     "Post",
+     "Family business angle. Look after the machine and the man using it."
+    ]
+   }
+  },
+  {
+   "start": "2027-06-26",
+   "end": "2027-07-11",
+   "name": "Qld school holidays",
+   "kind": "School",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Plan",
+     "Holiday timetable."
+    ],
+    "gt": [
+     "Plan",
+     "Winter school gym servicing window."
+    ]
+   }
+  },
+  {
+   "start": "2027-06-30",
+   "end": null,
+   "name": "End of financial year",
+   "kind": "Business",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Optional",
+     "Gift vouchers for staff or clients. No tax claims."
+    ],
+    "cp": [
+     "Offer",
+     "Paid-up-front membership push in the last two weeks of June."
+    ],
+    "gt": [
+     "Offer",
+     "Equipment and fit-outs before 30 June. No tax advice: \"talk to your accountant about timing\"."
+    ]
+   }
+  },
+  {
+   "start": "2027-09-05",
+   "end": null,
+   "name": "Father's Day",
+   "kind": "Celebration",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Optional",
+     "Skin for him: LED gift voucher. Soft, one post."
+    ],
+    "cp": [
+     "Post",
+     "Bring Dad to class. Men's class angle."
+    ],
+    "gt": [
+     "Post",
+     "Home gym installs and servicing as the gift. Book from mid-August."
+    ]
+   }
+  },
+  {
+   "start": "2027-09-06",
+   "end": "2027-09-10",
+   "name": "Women's Health Week (Jean Hailes)",
+   "kind": "Awareness",
+   "tbc": true,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Post",
+     "Early September (2027 dates not yet announced). Perimenopause and skin education."
+    ],
+    "cp": [
+     "Post",
+     "Strength, bone health and Pilates through midlife. Education, not claims."
+    ]
+   }
+  },
+  {
+   "start": "2027-09-09",
+   "end": null,
+   "name": "R U OK? Day",
+   "kind": "Awareness",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Post",
+     "The no-phones room as an hour to switch off. Point to ruok.org.au. No selling."
+    ],
+    "cp": [
+     "Post",
+     "Community post: ask a mate. No selling."
+    ],
+    "gt": [
+     "Post",
+     "Ask a mate, on the gym floor or off it. No selling."
+    ]
+   }
+  },
+  {
+   "start": "2027-09-18",
+   "end": "2027-10-04",
+   "name": "Qld school holidays",
+   "kind": "School",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Plan",
+     "Holiday timetable."
+    ],
+    "gt": [
+     "Plan",
+     "Spring school gym servicing window."
+    ]
+   }
+  },
+  {
+   "start": "2027-10-01",
+   "end": null,
+   "name": "Breast Cancer Awareness Month and Mental Health Month",
+   "kind": "Awareness",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Optional",
+     "Only with a real fundraising tie-in (e.g. a donation per LED session). No health claims."
+    ],
+    "cp": [
+     "Post",
+     "Pink class fundraiser, if the studio runs one."
+    ]
+   }
+  },
+  {
+   "start": "2027-10-04",
+   "end": null,
+   "name": "King's Birthday",
+   "kind": "Public holiday",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "cp": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "gt": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ]
+   }
+  },
+  {
+   "start": "2027-10-10",
+   "end": null,
+   "name": "World Mental Health Day",
+   "kind": "Awareness",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Post",
+     "Movement and headspace. No claims."
+    ],
+    "tsa": [
+     "Optional",
+     "Pair with the no-phones LED hour if R U OK? Day did not run."
+    ]
+   }
+  },
+  {
+   "start": "2027-10-18",
+   "end": null,
+   "name": "World Menopause Day",
+   "kind": "Awareness",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Post",
+     "Skin through menopause: what changes and why. Education first, consultation CTA."
+    ],
+    "cp": [
+     "Post",
+     "Strength and Pilates through menopause. Education first."
+    ]
+   }
+  },
+  {
+   "start": "2027-11-01",
+   "end": "2027-11-30",
+   "name": "Movember",
+   "kind": "Awareness",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Optional",
+     "Team or member fundraiser."
+    ],
+    "gt": [
+     "Post",
+     "Men's health, family business. A fundraiser post if the team takes part."
+    ]
+   }
+  },
+  {
+   "start": "2027-11-11",
+   "end": null,
+   "name": "Remembrance Day",
+   "kind": "Commemoration",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Quiet",
+     "Lest we forget. Story only."
+    ],
+    "cp": [
+     "Quiet",
+     "Lest we forget. Story only."
+    ],
+    "gt": [
+     "Quiet",
+     "Lest we forget. Story only."
+    ]
+   }
+  },
+  {
+   "start": "2027-11-15",
+   "end": "2027-11-21",
+   "name": "National Skin Cancer Action Week",
+   "kind": "Awareness",
+   "tbc": true,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Post",
+     "Mid-November (confirm dates). Sun safety and skin checks: see your GP. Education only, no treatment claims."
+    ]
+   }
+  },
+  {
+   "start": "2027-11-19",
+   "end": null,
+   "name": "International Men's Day",
+   "kind": "Celebration",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Post",
+     "To the men in our lives. Same as 2026."
+    ],
+    "cp": [
+     "Post",
+     "Men in the studio."
+    ],
+    "gt": [
+     "Post",
+     "Family business. To the men in our lives."
+    ]
+   }
+  },
+  {
+   "start": "2027-11-26",
+   "end": "2027-11-29",
+   "name": "Black Friday (Cyber Monday 29 Nov)",
+   "kind": "Retail",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Offer",
+     "Gift pack. Plan by 1 November."
+    ],
+    "cp": [
+     "Offer",
+     "Biggest sale of the year. Plan by 1 November."
+    ],
+    "gt": [
+     "Offer",
+     "Equipment or servicing offer, if margins allow."
+    ]
+   }
+  },
+  {
+   "start": "2027-12-09",
+   "end": null,
+   "name": "Joseph Pilates' birthday",
+   "kind": "Industry",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Post",
+     "History post or a classic repertoire class."
+    ]
+   }
+  },
+  {
+   "start": "2027-12-11",
+   "end": null,
+   "name": "Qld school holidays",
+   "kind": "School",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "cp": [
+     "Plan",
+     "Summer timetable."
+    ],
+    "gt": [
+     "Plan",
+     "Summer school gym servicing window."
+    ]
+   }
+  },
+  {
+   "start": "2027-12-24",
+   "end": null,
+   "name": "Christmas Eve (part-day holiday from 6pm)",
+   "kind": "Public holiday",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "cp": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "gt": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ]
+   }
+  },
+  {
+   "start": "2027-12-25",
+   "end": null,
+   "name": "Christmas Day (extra holiday Mon 27 Dec)",
+   "kind": "Public holiday",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Post",
+     "Thank you post."
+    ],
+    "cp": [
+     "Post",
+     "Thank you post."
+    ],
+    "gt": [
+     "Post",
+     "Thank you post."
+    ]
+   }
+  },
+  {
+   "start": "2027-12-26",
+   "end": null,
+   "name": "Boxing Day (extra holiday Tue 28 Dec)",
+   "kind": "Public holiday",
+   "tbc": false,
+   "note": "",
+   "brands": {
+    "tsa": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "cp": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ],
+    "gt": [
+     "Hours",
+     "Opening hours story the day before, and update Google hours."
+    ]
+   }
+  }
+ ],
+ "offers": {
+  "tsa": {
+   "title": "International Nurses Day offer: a week of unlimited LED",
+   "rows": [
+    [
+     "Offer",
+     "Seven days of unlimited LED sessions for nurses, starting from their first session."
+    ],
+    [
+     "Who",
+     "Nurses with current AHPRA registration. They show their registration, or a work ID, at the first visit."
+    ],
+    [
+     "Not for",
+     "Current members, who already have unlimited LED. Thank them in a story instead."
+    ],
+    [
+     "When",
+     "Launch Wed 12 May 2027. First session to be booked by Sun 23 May, and the week finishes by Sun 30 May."
+    ],
+    [
+     "Cap",
+     "Limited to 20 nurses, so the LED room stays bookable for members. Say so in the post."
+    ],
+    [
+     "Suitability",
+     "LED is chosen after a consultation. Anyone it doesn't suit gets a skin consultation instead."
+    ],
+    [
+     "Follow-up",
+     "On day 7, invite each nurse to join the membership at the current rate. This is where the money is."
+    ],
+    [
+     "Wording",
+     "\"A week of LED, on us.\" Never \"free\" in the call to action. Example CTA: \"Are you a nurse? Would you like a week of LED with us? Book through the link in our bio.\""
+    ],
+    [
+     "Story angle",
+     "A clinic co-founded by a nurse, saying thank you to nurses. No outcome claims about LED."
+    ],
+    [
+     "Compliance",
+     "Show the terms in the caption: who's eligible, the dates, the cap and one per person. AHPRA advertising rules expect clear terms on any gift or discount."
+    ]
+   ]
+  },
+  "cp": {
+   "title": "International Nurses Day offer: 3 classes for nurses",
+   "rows": [
+    [
+     "Offer",
+     "3 complimentary classes for nurses ($120 value at $40 a class)."
+    ],
+    [
+     "Who",
+     "Nurses new to Club Pilates Sippy Downs. They show their AHPRA registration, or a work ID, at their first class."
+    ],
+    [
+     "When",
+     "Claim from Wed 12 May to Wed 26 May 2027, and use within 21 days."
+    ],
+    [
+     "Classes",
+     "They start in Level 1, as everyone does. Any class on the schedule within that level."
+    ],
+    [
+     "Limit",
+     "One per person. It can't be combined with the free intro class: this replaces it."
+    ],
+    [
+     "Set-up",
+     "Needs a $0 \"Nurses Day 3 class\" offer in ClubReady, with its own booking link (an Australian link). That's the only build task."
+    ],
+    [
+     "Follow-up",
+     "After class 3, offer the intro membership deal. Send a text on day 2 after the last class."
+    ],
+    [
+     "Wording",
+     "\"3 classes on us for nurses.\" Using \"free\" is fine for Club Pilates."
+    ],
+    [
+     "Timing",
+     "Mother's Day is Sun 9 May. Launch the nurses post on Wed 12 May, not that weekend."
+    ]
+   ]
+  }
+ }
+}
