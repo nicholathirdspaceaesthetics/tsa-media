@@ -1,9 +1,9 @@
 """Spot story: an Instagram story for an appointment that has just opened up.
 
 Usage: python3 _studio/spot_story.py '<json>'   (run from the repo root)
-json: {"id": "...", "service": "led|needling|skin_consult|aesthetic_consult|glassifier",
+json: {"id": "...", "kind": "open" (default) or "taken", "service": "led|needling|skin_consult|aesthetic_consult|glassifier",
        "date": "YYYY-MM-DD" (the appointment), "time": "HH:MM" (24h), "today": "YYYY-MM-DD" (Brisbane, when posting)}
-Writes stories/spot-<id>.jpg and prints its path. Photos must already be in ph/<n>.jpg (see PLAYBOOK "Daily stories").
+"taken" makes the follow-up story once the spot is booked. Writes stories/spot-<id>.jpg (taken: stories/spot-<id>-taken.jpg) and prints its path. Photos must already be in ph/<n>.jpg (see PLAYBOOK "Daily stories").
 Copy rules: booking invitation only, no claims, never "free"; aesthetic treatments are never named (consultation only).
 """
 import json, sys, datetime, pathlib, subprocess
@@ -45,10 +45,17 @@ def main(arg):
              + (f'<p><span>{em[0].upper() + em[1:]}</span></p>' if em else '')
              + ('<p><span style="font-size:30px;opacity:.8">Subject to consultation and suitability.</span></p>' if suit else '')
              + '</div>')
+    if a.get("kind") == "taken":
+        label = {"led": "LED session", "needling": "Skin needling", "skin_consult": "Skin consultation",
+                 "aesthetic_consult": "Aesthetic consultation", "glassifier": "Glassifier"}[a["service"]]
+        items = ('<div class="st-list"><p><span>' + label + '</span><em>' + day + ', ' + t + '</em></p>'
+                 + '<p><span>Thank you. New openings go up here.</span></p></div>')
     photo = a.get("photo") or pick_photo()
-    sid = "spot-" + a["id"]
+    taken = a.get("kind") == "taken"
+    sid = "spot-" + a["id"] + ("-taken" if taken else "")
     spec = [{"id": sid, "slides": [{"kind": "story", "variant": "photo", "img": photo, "pos": "50% 30%", "top": 760,
-             "eyebrow": "Just opened up", "h": f"{phrase} has opened up <i>{when}</i>.", "hs": 78,
+             "eyebrow": "Update" if taken else "Just opened up",
+             "h": (f"That spot has been <i>booked</i>." if taken else f"{phrase} has opened up <i>{when}</i>."), "hs": 78 if not taken else 84,
              "items_html": items, "nofoot": True}]}]
     tmp = ROOT / "_studio/_spot_tmp"; tmp.mkdir(exist_ok=True)
     (tmp / "spec.json").write_text(json.dumps(spec))
@@ -58,8 +65,9 @@ def main(arg):
     Image.open(png).convert("RGB").save(out, quality=90)
     log = ROOT / "_studio/spots-log.json"
     entries = json.loads(log.read_text()) if log.exists() else []
-    entries.append({"id": a["id"], "date": a["today"], "service": a["service"], "slot": f"{a['date']} {a['time']}", "photo": photo,
-                    "words": f"Just opened up. {phrase} has opened up {when}. {day}, {t}. Book through the link in our bio."})
+    words = (f"Update. That spot has been booked. {day}, {t}. Thank you. New openings go up here. Book through the link in our bio."
+             if taken else f"Just opened up. {phrase} has opened up {when}. {day}, {t}. Book through the link in our bio.")
+    entries.append({"id": a["id"], "kind": "taken" if taken else "open", "date": a["today"], "service": a["service"], "slot": f"{a['date']} {a['time']}", "photo": photo, "words": words})
     log.write_text(json.dumps(entries, indent=1))
     print(out)
     print(entries[-1]["words"])
