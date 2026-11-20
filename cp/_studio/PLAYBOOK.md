@@ -133,3 +133,11 @@ Rules: no income, job or employment promises ("career" is fine only as "teaching
 - Schedule only content approved for its current revision, exactly as approved.
 - Never delete Buffer posts. Never post to any Third Space, founder or Gymtechs channel from these runs.
 - Never message anyone but Nichola. Never invent prices, dates, offers, class times or claims.
+
+## Google review posts (Nichola, 20 Nov 2026)
+
+- Nichola or the team paste new Google reviews into the "Google reviews" section of the approvals page (ArtifactData collection `reviews`: `{name, stars, text, at, status}`; status `new`, `drafted` or `skipped`).
+- The "Club Pilates review posts" scheduled task (6:47am and 12:47pm) turns each new **5-star** review into a feed post on the approvals page for Nichola to approve; the usual publisher run schedules it once approved. Reviews under 5 stars are marked `skipped` ("Under 5 stars"), never posted.
+- Design: `render.py` kind `quote`, 1080x1350, like `spec-review-<slug>.json` (first done: `spec-review-nicky.json`). Slide 1 blue: the strongest short line from the review, eyebrow "From our members". Slide 2 Light Tan, eyebrow "Google review": more of the review (use "&hellip;" for any cut). Source line: first name only, plus how long they've been a member only if the review says so. No photos of people (nobody is shown as the reviewer). One slide is fine for a short review.
+- Words: the reviewer's own words only, verbatim (fix only stray spaces). Never paraphrase, shorten inside a quote without "…", add or invent anything. Health lines in a member's own words may stay (Nichola, 20 Nov 2026) but are never restated as our claim. Caption: one plain intro line, the full review in quotation marks, one thank-you line to the first name, the intro class line ("Curious? Your first intro class is free. Book through the link in our bio."), hashtags. Review posts count as the "community" kind for the one-a-day rules and need their own entry in topics-log.json.
+- Never post a review whose text names another member, an instructor other than by first name, or contains anything offensive, private or untrue-looking: mark it `skipped` with the reason and tell Nichola.
