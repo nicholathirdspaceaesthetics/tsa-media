@@ -1,0 +1,27 @@
+[
+ {
+  "id": "cpr01-nicky",
+  "slides": [
+   {
+    "kind": "quote",
+    "bg": "blue",
+    "eyebrow": "From our members",
+    "q": "&ldquo;I&rsquo;m 68 and never once have I felt unsupported or out of my depth.&rdquo;",
+    "src": "Nicky, member for 3 years",
+    "hs": 76,
+    "mpos": "right:-480px;bottom:-480px",
+    "ms": 1150
+   },
+   {
+    "kind": "quote",
+    "bg": "ltan",
+    "eyebrow": "Google review",
+    "q": "&ldquo;I have become stronger and more flexible &hellip; The instructors are all terrific and knowledgeable, the atmosphere is welcoming and I&rsquo;ve made many new friends!&rdquo;",
+    "src": "Nicky, member for 3 years",
+    "hs": 60,
+    "mpos": "right:-480px;bottom:-480px",
+    "ms": 1150
+   }
+  ]
+ }
+]
