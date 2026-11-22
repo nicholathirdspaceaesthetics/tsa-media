@@ -53,7 +53,7 @@ def main(arg):
     photo = a.get("photo") or pick_photo()
     taken = a.get("kind") == "taken"
     sid = "spot-" + a["id"] + ("-taken" if taken else "")
-    spec = [{"id": sid, "slides": [{"kind": "story", "variant": "photo", "img": photo, "pos": "50% 30%", "top": 760,
+    spec = [{"id": sid, "reel": True, "slides": [{"kind": "story", "variant": "photo", "img": photo, "pos": "50% 30%", "top": 760,
              "eyebrow": "Update" if taken else "Just opened up",
              "h": (f"That spot has been <i>booked</i>." if taken else f"{phrase} has opened up <i>{when}</i>."), "hs": 78 if not taken else 84,
              "items_html": items, "nofoot": True}]}]
