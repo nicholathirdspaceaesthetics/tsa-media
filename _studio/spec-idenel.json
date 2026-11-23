@@ -1,0 +1,185 @@
+[
+ {
+  "id": "i1",
+  "slides": [
+   {
+    "kind": "text-choc",
+    "logo_top": true,
+    "align": "bottom",
+    "eyebrow": "iDenel Glassifier&#8482;",
+    "h": "What if your skincare could do <i>more</i>?",
+    "hs": 96,
+    "body": [
+     "Not more product. Better delivery."
+    ]
+   },
+   {
+    "kind": "text-cream",
+    "num": "01",
+    "eyebrow": "The idea",
+    "h": "Your skin is <i>clever</i>.",
+    "hs": 84,
+    "body": [
+     "Its outer layer is a protective barrier. It keeps unwanted things out, which is exactly its job.",
+     "The catch is that it can also make it harder for some skincare ingredients to get where they&#8217;re meant to go."
+    ]
+   },
+   {
+    "kind": "text-oat",
+    "num": "02",
+    "eyebrow": "The technology",
+    "h": "Microscopic <i>spicules</i>.",
+    "hs": 84,
+    "body": [
+     "Glassifier&#8482; uses tiny sponge-derived spicules to create temporary pathways in the skin&#8217;s outer layer.",
+     "So selected active ingredients, including GHK peptides, can be delivered more effectively than by surface application alone."
+    ]
+   },
+   {
+    "kind": "text-cream",
+    "num": "03",
+    "eyebrow": "What we focus on",
+    "h": "Skin quality you can <i>see and feel</i>.",
+    "hs": 80,
+    "body": [
+     "The appearance of smoother, more refined skin. Texture, radiance, hydration and the look of fine lines.",
+     "The research is promising, and results vary from person to person."
+    ]
+   },
+   {
+    "kind": "split",
+    "img": "196",
+    "pos": "50% 40%",
+    "frac": 0.5,
+    "panel": "choc",
+    "num": "04",
+    "eyebrow": "How it works here",
+    "h": "A consultation comes <i>first</i>.",
+    "hs": 72,
+    "body": [
+     "Complimentary, 20 minutes. Then a 40-minute treatment, if it suits your skin."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "i2",
+  "slides": [
+   {
+    "kind": "text-cream",
+    "logo_top": true,
+    "align": "bottom",
+    "eyebrow": "iDenel Glassifier&#8482;",
+    "h": "No needles. <i>Just</i> spicules.",
+    "hs": 96,
+    "body": [
+     "Glassifier&#8482; isn&#8217;t skin needling. It&#8217;s a professional topical treatment, using microscopic spicules to help selected ingredients reach the skin."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "i3",
+  "slides": [
+   {
+    "kind": "text-oat",
+    "logo_top": true,
+    "align": "bottom",
+    "eyebrow": "iDenel Glassifier&#8482;",
+    "h": "What to <i>expect</i>.",
+    "hs": 100,
+    "body": [
+     "Four things worth knowing before you book."
+    ]
+   },
+   {
+    "kind": "text-cream",
+    "num": "01",
+    "eyebrow": "First",
+    "h": "A complimentary <i>consultation</i>.",
+    "hs": 76,
+    "body": [
+     "Twenty minutes to understand your skin, explain the technology and talk through whether it suits you."
+    ]
+   },
+   {
+    "kind": "text-cream",
+    "num": "02",
+    "eyebrow": "The treatment",
+    "h": "Forty <i>minutes</i>.",
+    "hs": 84,
+    "body": [
+     "Offered by our skin therapist and our registered nurse."
+    ]
+   },
+   {
+    "kind": "text-cream",
+    "num": "03",
+    "eyebrow": "Afterwards",
+    "h": "Some <i>redness</i> is normal.",
+    "hs": 80,
+    "body": [
+     "Spicule treatments can cause temporary redness, sensitivity or irritation. We talk you through aftercare before you leave."
+    ]
+   },
+   {
+    "kind": "text-choc",
+    "num": "04",
+    "eyebrow": "At home",
+    "h": "A routine that <i>supports</i> it.",
+    "hs": 80,
+    "body": [
+     "Your skin, lifestyle and goals shape what we recommend, with regular reviews along the way."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "i4",
+  "slides": [
+   {
+    "kind": "text-choc",
+    "logo_top": true,
+    "align": "bottom",
+    "eyebrow": "The honest answer",
+    "h": "Promising research. <i>Honest</i> expectations.",
+    "hs": 88,
+    "body": [
+     "We&#8217;d rather tell you that than oversell it. It&#8217;s why every Glassifier&#8482; treatment starts with a consultation."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "i5",
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "124",
+    "pos": "50% 30%",
+    "eyebrow": "iDenel Glassifier&#8482;",
+    "h": "Who is it <i>for</i>?",
+    "hs": 96,
+    "body": [
+     "People who want to focus on skin quality: texture, dullness, hydration and the look of fine lines."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "i6",
+  "slides": [
+   {
+    "kind": "text-cream",
+    "logo_top": true,
+    "align": "bottom",
+    "eyebrow": "Before the Christmas break",
+    "h": "Curious about <i>Glassifier</i>&#8482;?",
+    "hs": 92,
+    "body": [
+     "Start with a complimentary 20-minute consultation. You&#8217;re not committing to anything by coming in."
+    ]
+   }
+  ]
+ }
+]
