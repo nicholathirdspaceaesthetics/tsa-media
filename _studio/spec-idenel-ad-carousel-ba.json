@@ -1,0 +1,107 @@
+[
+ {
+  "id": "adba",
+  "slides": [
+   {
+    "kind": "photo",
+    "img": "110",
+    "pos": "50% 30%",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Sippy Downs",
+    "h": "What if your skincare could do more?",
+    "hs": 74,
+    "bs": 30,
+    "body": [
+     "A professional spicule treatment, now at Third Space."
+    ],
+    "footl": "Complimentary consultation",
+    "shadecss": "background:linear-gradient(180deg,rgba(30,20,10,0) 25%,rgba(30,20,10,.45) 48%,rgba(30,20,10,.92) 100%)"
+   },
+   {
+    "kind": "photo",
+    "img": "102",
+    "pos": "40% 40%",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Sippy Downs",
+    "h": "Not more product. Better delivery.",
+    "hs": 74,
+    "bs": 30,
+    "body": [
+     "Glassifier uses microscopic marine spicules to help selected skincare ingredients reach the skin, rather than sitting on the surface."
+    ],
+    "footl": "Complimentary consultation",
+    "shadecss": "background:linear-gradient(180deg,rgba(30,20,10,0) 25%,rgba(30,20,10,.45) 48%,rgba(30,20,10,.92) 100%)"
+   },
+   {
+    "kind": "photo",
+    "img": "264",
+    "pos": "50% 25%",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Sippy Downs",
+    "h": "Your skin&#8217;s barrier is clever. Here&#8217;s how to work with it.",
+    "hs": 64,
+    "bs": 30,
+    "body": [
+     "Its outer layer keeps things out, which is its job. The spicules create temporary pathways so selected ingredients, including GHK peptides, can get through."
+    ],
+    "footl": "Complimentary consultation",
+    "shadecss": "background:linear-gradient(180deg,rgba(30,20,10,0) 25%,rgba(30,20,10,.45) 48%,rgba(30,20,10,.92) 100%)"
+   },
+   {
+    "kind": "ba",
+    "img": "ba-37",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Real skin",
+    "h": "The look of forehead lines.",
+    "hs": 64,
+    "note": "Real, unedited images supplied by iDenel, used with permission. Individual results vary.",
+    "footl": "Complimentary consultation"
+   },
+   {
+    "kind": "ba",
+    "img": "ba-34",
+    "bg": "oat",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Real skin",
+    "h": "Smoother-looking texture.",
+    "hs": 64,
+    "note": "Real, unedited images supplied by iDenel, used with permission. Individual results vary.",
+    "footl": "Complimentary consultation"
+   },
+   {
+    "kind": "ba",
+    "img": "ba-02",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Real skin",
+    "h": "A more even-looking tone.",
+    "hs": 64,
+    "note": "Real, unedited images supplied by iDenel, used with permission. Individual results vary.",
+    "footl": "Complimentary consultation"
+   },
+   {
+    "kind": "photo",
+    "img": "138",
+    "pos": "50% 30%",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Sippy Downs",
+    "h": "The question isn&#8217;t what you put on your skin. It&#8217;s what reaches it.",
+    "hs": 64,
+    "bs": 30,
+    "body": [
+     "That&#8217;s the thinking behind Glassifier. It isn&#8217;t right for every skin, and redness and light flaking afterwards are common, so it always starts with advice."
+    ],
+    "footl": "Complimentary consultation",
+    "shadecss": "background:linear-gradient(180deg,rgba(30,20,10,0) 25%,rgba(30,20,10,.45) 48%,rgba(30,20,10,.92) 100%)"
+   },
+   {
+    "kind": "split",
+    "img": "269",
+    "pos": "50% 45%",
+    "frac": 0.47,
+    "panel": "choc",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Sippy Downs",
+    "h": "Curious about spicules? So were we.",
+    "hs": 74,
+    "bs": 30,
+    "body": [
+     "We did our homework before bringing Glassifier to the clinic, and we&#8217;ll talk you through it honestly."
+    ],
+    "extra": "<div style='margin-top:32px;padding-top:26px;border-top:1px solid rgba(251,248,243,.35);font-size:32px;line-height:1.4;font-weight:500'>Curious whether Glassifier is right for your skin? Let&#8217;s have a conversation.</div>",
+    "footl": "Complimentary consultation"
+   }
+  ]
+ }
+]
