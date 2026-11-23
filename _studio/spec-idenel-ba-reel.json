@@ -7,11 +7,39 @@
     "kind": "text-choc",
     "logo_top": true,
     "align": "center",
-    "eyebrow": "iDenel Glassifier&#8482;",
-    "h": "Real skin.<br><i>Honest</i> results.",
-    "hs": 118,
+    "eyebrow": "Now at Third Space",
+    "h": "iDenel <i>Glassifier</i>&#8482;",
+    "hs": 124,
     "body": [
-     "Unfiltered, and different for everyone."
+     "Microscopic spicules. Better delivery.",
+     "No needles."
+    ],
+    "bs": 44,
+    "nofoot": true
+   },
+   {
+    "kind": "text-cream",
+    "align": "center",
+    "eyebrow": "How iDenel works",
+    "num": "01",
+    "h": "Microscopic <i>spicules</i>.",
+    "hs": 104,
+    "body": [
+     "Tiny, sponge-derived spicules create temporary pathways through the skin&#8217;s protective outer layer.",
+     "No needles, no blades."
+    ],
+    "bs": 42,
+    "nofoot": true
+   },
+   {
+    "kind": "text-oat",
+    "align": "center",
+    "eyebrow": "How iDenel works",
+    "num": "02",
+    "h": "Actives that go <i>further</i>.",
+    "hs": 104,
+    "body": [
+     "Those pathways help selected ingredients, including GHK peptides, penetrate more effectively than skincare applied to the surface alone."
     ],
     "bs": 42,
     "nofoot": true
@@ -20,7 +48,7 @@
     "kind": "baone",
     "img": "ba-37-l",
     "tag": "Before",
-    "eyebrow": "Fine lines",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Fine lines",
     "h": "The look of forehead <i>lines</i>.",
     "hs": 84,
     "note": "Real, unedited images supplied by iDenel. Individual results vary.",
@@ -30,7 +58,7 @@
     "kind": "baone",
     "img": "ba-37-r",
     "tag": "After",
-    "eyebrow": "Fine lines",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Fine lines",
     "h": "The look of forehead <i>lines</i>.",
     "hs": 84,
     "note": "Real, unedited images supplied by iDenel. Individual results vary.",
@@ -40,7 +68,7 @@
     "kind": "baone",
     "img": "ba-34-l",
     "tag": "Before",
-    "eyebrow": "Texture",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Texture",
     "h": "Smoother-looking <i>texture</i>.",
     "hs": 84,
     "note": "Real, unedited images supplied by iDenel. Individual results vary.",
@@ -50,7 +78,7 @@
     "kind": "baone",
     "img": "ba-34-r",
     "tag": "After",
-    "eyebrow": "Texture",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Texture",
     "h": "Smoother-looking <i>texture</i>.",
     "hs": 84,
     "note": "Real, unedited images supplied by iDenel. Individual results vary.",
@@ -60,7 +88,7 @@
     "kind": "baone",
     "img": "ba-02-l",
     "tag": "Before",
-    "eyebrow": "Tone",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Tone",
     "h": "A more even-looking <i>tone</i>.",
     "hs": 84,
     "note": "Real, unedited images supplied by iDenel. Individual results vary.",
@@ -70,7 +98,7 @@
     "kind": "baone",
     "img": "ba-02-r",
     "tag": "After",
-    "eyebrow": "Tone",
+    "eyebrow": "iDenel Glassifier&#8482; &middot; Tone",
     "h": "A more even-looking <i>tone</i>.",
     "hs": 84,
     "note": "Real, unedited images supplied by iDenel. Individual results vary.",
@@ -79,7 +107,7 @@
    {
     "kind": "text-choc",
     "align": "center",
-    "eyebrow": "Will it suit yours?",
+    "eyebrow": "Will iDenel suit you?",
     "h": "It starts with a <i>conversation</i>.",
     "hs": 104,
     "body": [
