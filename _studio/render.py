@@ -115,7 +115,7 @@ def slide_html(s, n, total, W, H):
         pos = s.get("pos", "center")
         top = s.get("textpos", "bottom") == "top"
         inner = f'''<div class="photo" style="background-image:url({photo_url(s["img"])});background-position:{pos};{s.get('imgcss','')}"></div>
-        <div class="shade{' top' if top else ''}"></div><div class="grain" style="opacity:.10"></div>
+        <div class="shade{' top' if top else ''}" style="{s.get('shadecss','')}"></div><div class="grain" style="opacity:.10"></div>
         <div class="pad on-photo" style="justify-content:{'flex-start' if top else 'flex-end'}"><div>{eyebrow}{num}{'<div style="height:26px"></div>' if (eyebrow or num) and h1 else ''}{h1}{body}{extra}</div></div>'''
         tone = "light"
     elif kind == "split":
