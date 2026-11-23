@@ -1,0 +1,100 @@
+[
+ {
+  "id": "r-ba",
+  "reel": true,
+  "slides": [
+   {
+    "kind": "text-choc",
+    "logo_top": true,
+    "align": "center",
+    "eyebrow": "iDenel Glassifier&#8482;",
+    "h": "Real skin.<br><i>Honest</i> results.",
+    "hs": 118,
+    "body": [
+     "Unfiltered, and different for everyone."
+    ],
+    "bs": 42,
+    "nofoot": true
+   },
+   {
+    "kind": "baone",
+    "img": "ba-37-l",
+    "tag": "Before",
+    "eyebrow": "Fine lines",
+    "h": "The look of forehead <i>lines</i>.",
+    "hs": 84,
+    "note": "Real, unedited images supplied by iDenel. Individual results vary.",
+    "nofoot": true
+   },
+   {
+    "kind": "baone",
+    "img": "ba-37-r",
+    "tag": "After",
+    "eyebrow": "Fine lines",
+    "h": "The look of forehead <i>lines</i>.",
+    "hs": 84,
+    "note": "Real, unedited images supplied by iDenel. Individual results vary.",
+    "nofoot": true
+   },
+   {
+    "kind": "baone",
+    "img": "ba-34-l",
+    "tag": "Before",
+    "eyebrow": "Texture",
+    "h": "Smoother-looking <i>texture</i>.",
+    "hs": 84,
+    "note": "Real, unedited images supplied by iDenel. Individual results vary.",
+    "nofoot": true
+   },
+   {
+    "kind": "baone",
+    "img": "ba-34-r",
+    "tag": "After",
+    "eyebrow": "Texture",
+    "h": "Smoother-looking <i>texture</i>.",
+    "hs": 84,
+    "note": "Real, unedited images supplied by iDenel. Individual results vary.",
+    "nofoot": true
+   },
+   {
+    "kind": "baone",
+    "img": "ba-02-l",
+    "tag": "Before",
+    "eyebrow": "Tone",
+    "h": "A more even-looking <i>tone</i>.",
+    "hs": 84,
+    "note": "Real, unedited images supplied by iDenel. Individual results vary.",
+    "nofoot": true
+   },
+   {
+    "kind": "baone",
+    "img": "ba-02-r",
+    "tag": "After",
+    "eyebrow": "Tone",
+    "h": "A more even-looking <i>tone</i>.",
+    "hs": 84,
+    "note": "Real, unedited images supplied by iDenel. Individual results vary.",
+    "nofoot": true
+   },
+   {
+    "kind": "text-choc",
+    "align": "center",
+    "eyebrow": "Will it suit yours?",
+    "h": "It starts with a <i>conversation</i>.",
+    "hs": 104,
+    "body": [
+     "A complimentary 20-minute consultation with our registered nurse. Honest advice, no pressure."
+    ],
+    "bs": 42,
+    "nofoot": true
+   },
+   {
+    "kind": "logo",
+    "bg": "choc",
+    "w": 640,
+    "sub": "Book through the link in our bio.",
+    "nofoot": true
+   }
+  ]
+ }
+]

@@ -150,6 +150,24 @@ def slide_html(s, n, total, W, H):
             <div class="split-panel bg-{bg}" style="top:0;bottom:{ih}px"><div class="grain"></div>
             <div class="pad" style="position:absolute;inset:0;padding-top:{s.get('pt',170)}px;justify-content:flex-start">{'' if s.get('nologo') else f'<img class="logo" src="data:image/png;base64,{LOGO[col]}" style="width:{s.get('lw',230)}px;margin-bottom:{s.get('lm',60)}px">'}<div>{block}</div></div></div>'''
             tone = "light" if bg in ("choc", "deep", "cherry") else "dark"
+    elif kind == "ba":
+        # Before/after pair: cream page, heading, unedited supplied pair image, labels, results-vary note.
+        bg = s.get("bg", "cream")
+        lab = '<div style="display:flex;margin:0 0 14px"><span class="eyebrow" style="flex:1;font-size:21px">Before</span><span class="eyebrow" style="flex:1;font-size:21px;padding-left:18px">After</span></div>'
+        img = f'<div style="width:100%;aspect-ratio:1008/500;background:url({photo_url(s["img"])}) center/cover;border-radius:4px"></div>'
+        note = f'<div class="src" style="margin-top:22px;font-size:22px;line-height:1.45">{s.get("note","")}</div>'
+        inner = f'''<div class="bg-{bg}" style="position:absolute;inset:0"></div><div class="grain"></div>
+        <div class="pad" style="justify-content:center"><div>{eyebrow}{num}<div style="height:26px"></div>{h1}{body}<div style="height:60px"></div>{lab}{img}{note}</div></div>'''
+        tone = "dark"
+    elif kind == "baone":
+        # Reel frame: one half of a before/after pair, large and square, same layout for both so a wipe reveals the change.
+        bg = s.get("bg", "cream")
+        tag = s.get("tag", "Before")
+        img = f'<div style="position:relative;width:100%;aspect-ratio:1/1;background:url({photo_url(s["img"])}) center/cover;border-radius:6px"><span style="position:absolute;left:28px;top:28px;background:rgba(62,43,24,.82);color:#FBF8F3;font-size:26px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;padding:14px 22px;border-radius:999px">{tag}</span></div>'
+        note = f'<div class="src" style="margin-top:30px;font-size:27px;line-height:1.45">{s.get("note","")}</div>'
+        inner = f'''<div class="bg-{bg}" style="position:absolute;inset:0"></div><div class="grain"></div>
+        <div class="pad" style="justify-content:center"><div>{eyebrow}<div style="height:26px"></div>{h1}<div style="height:64px"></div>{img}{note}</div></div>'''
+        tone = "dark"
     elif kind == "logo":
         bg = s.get("bg", "cream")
         col = "cream" if bg in ("choc", "deep") else "choc"

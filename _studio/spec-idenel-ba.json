@@ -1,0 +1,14 @@
+[
+ {"id":"i7","slides":[
+  {"kind":"text-choc","logo_top":true,"align":"bottom","eyebrow":"iDenel Glassifier&#8482;","h":"Real skin. <i>Honest</i> results.","hs":96,
+   "body":["What a course of Glassifier&#8482; treatments can look like. Unfiltered, and different for everyone."]},
+  {"kind":"ba","img":"ba-37","num":"01","eyebrow":"Fine lines","h":"The look of forehead <i>lines</i>.","hs":64,
+   "note":"Real, unedited images supplied by iDenel. Individual results vary."},
+  {"kind":"ba","img":"ba-34","bg":"oat","num":"02","eyebrow":"Texture","h":"Smoother-looking <i>texture</i>.","hs":64,
+   "note":"Real, unedited images supplied by iDenel. Individual results vary."},
+  {"kind":"ba","img":"ba-02","num":"03","eyebrow":"Tone","h":"A more even-looking <i>tone</i>.","hs":64,
+   "note":"Real, unedited images supplied by iDenel. Individual results vary."},
+  {"kind":"split","img":"196","pos":"50% 40%","frac":0.5,"panel":"choc","num":"04","eyebrow":"Your skin","h":"Will it suit <i>yours</i>?","hs":72,
+   "body":["Every result starts with a complimentary 20-minute consultation. We&#8217;ll tell you honestly what to expect."]}
+ ]}
+]
