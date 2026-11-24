@@ -1,0 +1,27 @@
+[
+ {
+  "id": "cpr02-regina",
+  "slides": [
+   {
+    "kind": "quote",
+    "bg": "blue",
+    "eyebrow": "From our members",
+    "q": "&ldquo;Really supportive place to be.&rdquo;",
+    "src": "Regina",
+    "hs": 96,
+    "mpos": "right:-480px;bottom:-480px",
+    "ms": 1150
+   },
+   {
+    "kind": "quote",
+    "bg": "ltan",
+    "eyebrow": "Google review",
+    "q": "&ldquo;Tyson and Nichola are so much fun as are all the instructors! I really enjoy the little bit of you time Tyson tacks on to the end of the class, it is an absolute game changer &hellip;&rdquo;",
+    "src": "Regina",
+    "hs": 60,
+    "mpos": "right:-480px;bottom:-480px",
+    "ms": 1150
+   }
+  ]
+ }
+]
